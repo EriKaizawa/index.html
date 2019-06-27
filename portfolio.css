@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* body */
+body,h1,h2,h3,p,ul{
+	margin: 0;
+	padding: 0;
+}
+
+body{S
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','YuGothic','Yu Gothic','メイリオ','Meiryo','MS Pゴシック','MS PGothic';
+}
+
+img{
+  vertical-align: bottom;
+  width: 100%;
+  height: auto;
+}
+
+/* header */
+header{
+  width: 1000px;
+  margin: 50px 0 10px 50px;
+}
+
+header h1{
+  font-size: 6em;
+  color:#928178;
+  text-align: center;
+}
+
+/* nav */
+nav {
+  background-color: #5a544b;
+}
+
+nav ul{
+  width: 1000px;
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+}
+
+nav li a{
+  width:250px;
+  color: #fff;
+	padding: 6px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  transition: 1.0s ;
+	position: relative;
+}
+
+nav li a:hover{
+  color: #5a544b;
+  background-color: #fff;
+  opacity: 0.6;
+}
+
+
+
+/* a */
