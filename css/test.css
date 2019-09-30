@@ -1,3 +1,472 @@
 @charset "UTF-8";
+.nav-unshown {display:none;}
+
+.headerInner {
+    display: flex;
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.7em;
+    margin: 0 0 auto 0.5em;
+    width: 100%;
+}
+/*sns*/
+
+.faceBook {
+    position: absolute;
+    top: 10px;
+    right: 67px;
+}
+
+.instaGram {
+    position: absolute;
+    top: 36px;
+    right: 67px;
+}
 
 
+
+
+
+
+@media screen and (min-width:481px) and ( max-width:960px) {
+
+}
+
+/*スマホで480以下*/
+@media only screen and (max-width: 480px) {
+
+header {
+    top: 0;
+    width: 100%;
+    /*position: fixed;*/
+}
+.sp { display:none; }
+
+body{
+	/*overflow: hidden;*/
+}
+
+header {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hRbox {
+    width: 100%;
+    /*position: fixed;*/
+    margin: 1.2em auto 0.2em;
+}
+
+h1 {
+    margin: 0.1em auto 0 0.5em;
+    font-size: 1em;
+}
+
+/*sns*/
+.sns{
+    margin: -2.8em 0 0 40.5em;
+    /*position: fixed;*/
+}
+
+.faceBook {
+    /*position: fixed;*/
+    top: 0.5em;
+    right: 33em;
+}
+
+.instaGram {
+    /*position: fixed;*/
+    top: 0.5em;
+    right: 32em;
+}
+
+/*nav*/
+nav {
+    width: 100%;
+    background-color: #fff;
+    height: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    margin: 2em auto 0em 2.5em;
+    list-style-type: none;
+    display: block;
+}
+
+/*以下はハンバーガーメニューの設定*/
+#nav-drawer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 100;}
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {display:none;}
+
+/*アイコンのスペース*/
+#nav-open {
+    display:block;
+    line-height: 0.5em;}
+
+/*ハンバーガーアイコンをCSSだけで表現*/
+#nav-open span{position: fixed;
+    z-index: 999;}
+#nav-open span, #nav-open span:before, #nav-open span:after {
+    height: 2px;
+    width: 25px;
+    border-radius: 3px;
+    background: #555;
+    display: inline-block;
+    content: '';
+    cursor: pointer;}
+
+#nav-open span:before {top: 0;}
+#nav-open span:after {top: 0;}
+
+/*閉じる用の薄黒カバー*/
+#nav-close {
+    display: none;/*はじめは隠しておく*/
+    position: fixed;
+    z-index: 99;
+    top: 0;/*全体に広がるように*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    transition: .3s ease-in-out;}
+
+/*中身*/
+#nav-content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;/*最前面に*/
+    width: 60%;/*右側に隙間を作る*/
+    max-width: 330px;/*最大幅*/
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);/*背景色*/
+    transition: .3s ease-in-out;/*滑らかに表示*/
+    transform: translateX(-105%);/*左に隠しておく*/
+    color: #000;}
+
+/*チェックが入ったらもろもろ表示*/
+#nav-input:checked ~ #nav-close {
+    display: block;/*カバーを表示*/
+    opacity: .5;}
+
+#nav-input:checked ~ #nav-content {
+    transform: translateX(0%);/*中身を表示*/
+    box-shadow: 6px 0 25px rgba(0,0,0,.15);}
+/*ハンバーガーメニューの設定ここまで*/
+
+/*body*/
+.imgInner{
+	width: 100%;
+}
+
+/*トップの画像3枚*/
+.imgBox{
+	width: 30%;
+	margin: 0 auto;
+}
+
+.imgBox img {
+    width: 111px;
+    height: 17ex;
+    border: none;
+}
+
+.imgBox .caption01 {
+    font-size: 1.2em;
+    color: #fff;
+    padding-top: 179%;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.imgBox .caption02 {
+    font-size: 1.2em;
+    color: #fff;
+    padding-top: 179%;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.imgBox .caption03 {
+    font-size: 1.2em;
+    color: #fff;
+    padding-top: 179%;
+    padding-left: 0;
+    text-align: center;
+}
+
+/*about*/
+.aboutInner {
+    width: 100%;
+    background-color: #eaf4fc;
+    margin: 3em auto 0;
+    padding: 3em 0;
+}
+
+.aboutBox {
+    display: block;
+    margin: 0 auto;
+}
+
+.aboutInner img {
+    width: 30%;
+    height: 30%;
+    margin: 0 0.5em;
+}
+
+.spF{
+    font-size: 0.7em;
+}
+
+.detaiInner {
+    width: 100%;
+}
+
+h3 {
+    font-size: 1em;
+    margin-top: 50px;
+    color: #393f4c;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0 0 0;
+    width: 100%;
+}
+
+dt {
+    color: #393f4c;
+    width: 100%;
+    margin-bottom: 0.1em;
+}
+
+dd {
+    width: 100%;
+    margin: 0 0 1em;
+    color: #393f4c;
+}
+
+.workTitle {
+    font-size: 0.9em;
+}
+
+
+/*グラフィック*/
+.grdesignInner {
+    width: 100%;
+    background-color: #fff;
+    padding: 3.5em 0;
+}
+
+.workTitle {
+    background-color: #eaf4fc;
+    width: 100%;
+    margin: 1em auto 0.8em;
+    text-align: center;
+    color: #393f4c;
+    padding: 0.3em 0 0.2em;
+}
+
+.grFirst {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 0.5em;
+}
+
+.grFirst img {
+    max-width: 30%;
+    height: auto;
+    margin: 0 0.6em 0.6em 0;
+    border: solid #393f4c 1px;
+}
+
+.grSecond {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 0.5em;
+}
+
+.grSecond img{
+    width: 30%;
+    height: auto;
+    margin: 0 0.6em 0.6em 0;
+    border: solid #393f4c 1px;
+}
+
+.grSecond img:nth-child(4) {
+    margin-right: 0.6em;
+}
+
+.grThierd img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px 0;
+    border: solid #393f4c 1px;
+}
+
+.grThierd {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 0.5em;
+}
+
+.grThierd img {
+    max-width: 46.5%;
+    height: auto;
+    margin: 0 0.6em 0.6em 0;
+    border: solid #393f4c 1px;
+}
+
+.grThierd img:nth-child(odd) {
+    margin-right: 10px;
+}
+
+.grFourth {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 0.5em;
+}
+
+.tissueBox01 {
+    display: flex;
+    margin: 0 0 0.6em 0;
+}
+
+.tissueBox02 {
+    display: flex;
+    margin: 0 0 0.6em 0;
+}
+
+.grFourth img {
+    max-width: 46.5%;
+    height: auto;
+    margin: 0 0.6em 0.6em 0;
+    border: solid #393f4c 1px;
+}
+
+.tissueRight01 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.grFourth img {
+    max-width: 46.5%;
+    height: auto;
+    margin: 0 0.6em 0.6em 0;
+    border: none;
+}
+
+.tissueRight01 img{
+    max-width: 90.5%;
+    margin: 0;
+}
+
+.tissueRight02 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+.tissueRight02 img{
+    max-width: 90.5%;
+    margin: 0;
+}
+
+.clrFile {
+    display: flex;
+    width: 100%;
+}
+
+.clrFile img {
+    max-width: 30%;
+    height: auto;
+    margin: 0 0.6em 0.6em 0;
+    border: none;
+}
+
+.clrFile img:last-child {
+    margin: 0 0 0.6em 0;
+}
+
+/*art*/
+.artInner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3.5em 0;
+}
+
+.workTitle02 {
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto 30px;
+    text-align: center;
+    color: #393f4c;
+    padding: 0.3em 0 0.2em;
+}
+
+.artFirst {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 0.5em;
+}
+
+.artFirst ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+
+.artFirst li {
+    margin: 0 0.6em 0.6em 0;
+    width: 100%;
+}
+
+.artFirst img {
+    width: 80%;
+}
+
+.artSecond {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 0.5em;
+}
+
+.artSecond ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+
+.artSecond li {
+    margin: 0 0.6em 0.6em 0;
+    width: 100%;
+}
+
+.artSecond img{
+    width: 80%;
+}
+}

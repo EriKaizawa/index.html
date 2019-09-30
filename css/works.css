@@ -60,29 +60,33 @@ main{
 	transition:		all 1s ease;
 }
 .imgBox:hover .mask {
-	top:			0;	/* 下に降りてくるように見せる */
+	top: 0;	/* 下に降りてくるように見せる */
 }
 
-.gdesignInner{
-	width: 100%;
-    background-color: #eaf4fc;
-    margin: 100px auto 0;
-    padding: 100px 260px;
+
+/*グラフィック*/
+.grdesignInner{
+    width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 100px 0;
 }
 
 .workTitle{
-    background-color: #fff;
+    background-color: #eaf4fc;
     width: 1000px;
-    margin: 0 auto 50px;
+    margin: 0 auto 30px;
     text-align: center;
     color: #393f4c;
     padding: 0.3em 0 0.2em;
 }
 
+/*リーフレット/チラシ*/
 .grFirst{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .grFirst img{
@@ -96,60 +100,146 @@ main{
     margin-right: 0;
 }
 
-
-.aboutBox{
-    display: flex;
-    margin: 0 auto;
-}
-
-
-.aboutInner img {
-    width: auto;
-    height: 420px;
-    margin: 0 30px auto 20px;
-}
-
-.adetails{
-    display: flex;
-    width: 1000px;
-}
-
-.detaiInner{
-    width: 40%;
-}
-
-h3{
-    font-size: 1.2em;
-    margin-top: 50px;
-}
-
-
-dl{
+/*ポスター*/
+.grSecond{
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 0 0 0;
-    width: 600px;
+    width: 100%;
+    margin-bottom: 80px;
 }
 
-dt{  
-    color: #585858;
-	width: 100px;
-	margin-bottom: 10px;
+.grSecond img{
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto 20px 0;
+    border: solid #393f4c 1px;
 }
 
-dd{
-	width: 450px;
-    margin: 0 0 10px;
+.grSecond img:nth-child(3n) {
+    margin-right: 0;
+}
+
+.grSecond img:nth-child(7){
+    margin-right: 0;
+}
+
+/*ブログバナー*/
+.grThierd{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.grThierd img{
+    max-width: 490px;
+    height: auto;
+    margin: 0 auto 20px 0;
+    border: solid #393f4c 1px;
+}
+
+.grThierd img:nth-child(odd) {
+    margin-right: 20px;
+}
+
+/*その他*/
+.grFourth{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.tissueBox01{
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.tissueRight01{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 0 5px;
+}
+
+.tissueRight01 img:last-child{
+    border-top: solid 1px #fff;
+}
+
+.tissueBox02{
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.tissueRight02{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 5px;
+}
+
+.tissueRight02 img:last-child{
+    border-top: solid 1px #fff;
+}
+
+.clrFile{
+    display: flex;
+}
+
+.clrFile img{
+    margin: 0 20px 0 0;
+}
+
+.clrFile img:last-child{
+    margin: 0;
 }
 
 
 
+/*art*/
+.artBox{
+    width: 100%;
+    background-color: #eaf4fc;
+}
 
+.artInner{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+    
+}
 
+.workTitle02{
+    background-color: #fff;
+    width: 1000px;
+    margin: 0 auto 30px;
+    text-align: center;
+    color: #393f4c;
+    padding: 0.3em 0 0.2em;
+}
 
+.artFirst ul{
+    display: flex;
+    list-style: none;
+}
 
+.artFirst li{
+    margin: 0 20px 20px 0;
+}
 
+.artFirst li:last-child{
+    margin-right: 0;
+}
 
+.artSecond ul{
+    display: flex;
+    list-style: none;
+}
 
+.artSecond li{
+    margin: 0 20px 20px 0;
+}
+
+.artSecond li:last-child{
+    margin-right: 0;
+}
 
 

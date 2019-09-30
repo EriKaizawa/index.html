@@ -1,6 +1,6 @@
 /* line 7, ../sass/lightbox.sass */
 body:after {
-  content: url(../image/close.png) url(../image/loading.gif) url(../image/prev.png) url(../image/next.png);
+  content: url(/images/close.png) url(/images/loading.gif) url(../image/prev.png) url(../image/next.png);
   display: none;
 }
 
@@ -84,7 +84,7 @@ body:after {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../image/loading.gif) no-repeat;
+  background: url(/images/loading.gif) no-repeat;
 }
 
 /* line 63, ../sass/lightbox.sass */
