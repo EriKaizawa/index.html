@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+main{
+	width: 100%;
+}
+
+
+/*上の画像と文言*/
+.top{
+    position: absolute;
+    top: 160px;
+    left: 35%;
+    font-size: 2.5em;
+    color: #fff;
+    /*text-shadow: 1px 5px 1px #999;*/
+    z-index: 900;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+.spTitle{
+	text-align: center;
+	color: #585858;
+	border-bottom: 1px solid #b2b8a3;
+    margin-bottom: 10px;
+}
+
+
+/*メインの中*/
+/*タイトル*/
+.bckWhite{
+	width: 1000px;
+	margin: 0 auto;
+	display: block;
+}
+
+.wb{
+	text-align: center;
+    margin: 100px auto 20px;
+    background: #b2b8a3;
+    padding: 5px 0;
+    border-radius: 50px 3px;
+    color: #fff;
+}
+
+.titleImg{
+	margin-right: 3px;
+    width: 40px;
+}
+
+
+/*listInner*/
+.listInner{
+	margin-bottom: 100px;
+}
+
+.listBox01{
+	display: flex;
+    width: 1000px;
+    border: solid 1px #c4c9cc;
+    margin: 0 auto 50px;
+    border-radius: 50px 3px;
+}
+
+.listBox02{
+	display: flex;
+	width: 1000px;
+    margin: 50px auto;
+    border: solid 1px #c4c9cc;
+    border-radius: 50px 3px;
+    background-color: #fff;
+}
+
+.listBox01 img{
+    height: 100%;
+    width: 400px;
+    border-radius: 50px 0 0 0;
+}
+
+.listBox02 img{
+    height: 100%;
+    width: 400px;
+    border-radius: 0 0 50px 0;
+}
+
+.liTitle{
+	text-align: center;
+	color: #585858;
+	border-bottom: 1px solid #b2b8a3;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.liTitle02{
+    text-align: center;
+    color: #585858;
+    border-bottom: 1px solid #b2b8a3;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.liTitleNo{
+    width: 100%;
+    text-align: center;
+    color: #585858;
+    font-size: 1.3em;
+    margin-top: 120px;
+}
+
+.liIn p{
+	color: #585858;
+	margin: 3px 10px;
+}
+
+.liIn{
+	margin: 4px;
+	width: 100%;
+}
+
+.listBottom{
+	width: 1000px;
+    margin: 50px auto;
+    font-weight: 500;
+}
+
+.fontColor{
+	color: #6d9288;
+	font-weight: bold;
+}

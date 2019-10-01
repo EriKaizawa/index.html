@@ -1,0 +1,263 @@
+@charset "UTF-8";
+
+main{
+	width: 100%;
+}
+
+
+/*上の画像と文言*/
+.top{
+    position: absolute;
+    top: 160px;
+    left: 40%;
+    font-size: 2.5em;
+    color: #fff;
+    /*text-shadow: 1px 5px 1px #999;*/
+    z-index: 900;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+
+
+/*メインの中*/
+/*タイトル*/
+.bckWhite{
+	width: 1000px;
+	margin: 0 auto;
+	display: block;
+}
+
+.wb{
+	text-align: center;
+    margin: 100px auto 20px;
+    background: #b2b8a3;
+    padding: 5px 0;
+    border-radius: 50px 3px;
+    color: #fff;
+}
+
+.titleImg{
+	margin-right: 3px;
+    width: 40px;
+}
+
+
+/*priceInner*/
+.priceInner{
+	margin-bottom: 100px;
+    display: flex;
+}
+
+.priceBox01{
+	display: flex;
+    width: 315px;
+    border: solid 1px #c4c9cc;
+    margin: 0 auto;
+    border-radius: 50px 3px;
+}
+
+.prIn{
+    margin: 4px;
+    width: 100%;
+}
+
+.prtitle{
+    text-align: center;
+    color: #585858;
+    border-bottom: 1px solid #b2b8a3;
+    margin: 0 0 30px;
+    font-size: 1.3em;
+    padding: 11px 0;
+}
+
+.prtitle02{
+    text-align: center;
+    color: #585858;
+    border-bottom: 1px solid #b2b8a3;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.prIn dl{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0 30px 10px;
+    background: #fff;
+    font-size: 1.1em;
+    border-bottom: solid 1px #c4c9cc;
+}
+
+.prIn .kidDl{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0 30px 0;
+    background: #fff;
+    font-size: 1.1em;
+    border-bottom: solid 1px #c4c9cc;
+}
+
+.prIn dt{
+    margin: 0.3em auto 0.4em 0;
+    font-size: 0.8em;
+}
+
+.prIn .kidDt{
+    margin: 28px auto 0;
+}
+
+.prIn dd{
+    width: 190px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.prIn .kidDd{
+    width: 190px;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0 auto 1px;
+}
+
+.prIn .attentionF{
+    color: #585858;
+    margin: 6px 6px 0;
+    font-size: 0.8em;
+}
+
+.prIn .kidTitle{
+    color: #585858;
+    margin: -0.3em 6px 2px;
+    font-size: 0.8em;
+}
+
+.priceBoxR img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0 0 50px 0;
+}
+
+.priceBoxL img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0 0 50px 0;
+}
+
+.prBottom{
+	width: 1000px;
+    margin: 50px auto;
+    font-weight: 500;
+}
+
+
+
+/*flowInner*/
+.flowInner01{
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.flowInner02{
+    width: 1000px;
+    display: flex;
+    margin: 0 auto 100px;
+}
+
+.flowBox01{
+    width: 490px;
+    margin: 0 20px 20px 0;
+    border: solid 1px #c4c9cc;
+    border-radius:50px 50px 3px 50px;
+    background-color: #fff;
+}
+
+.flowBox02{
+    width: 490px;
+    margin: 0 0 20px 0;
+    border: solid 1px #c4c9cc;
+    border-radius: 50px 50px 50px 3px;
+    background-color: #fff;
+}
+
+.flowBox03{
+    width: 490px;
+    margin: 0 20px 20px 0;
+    border: solid 1px #c4c9cc;
+    border-radius: 50px 3px 50px 50px;
+    background-color: #fff;
+}
+
+.flowBox04{
+    width: 490px;
+    margin: 0 0 20px 0;
+    border: solid 1px #c4c9cc;
+    border-radius: 3px 50px 50px 50px;
+    background-color: #fff;
+}
+
+
+
+.flIn{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.fltitle{
+    text-align: center;
+    color: #585858;
+    /*border-bottom: 1px solid #b2b8a3;*/
+    margin: 30px 10px 0;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+.fltitle02{
+    text-align: left;
+    color: #585858;
+    /*border-bottom: 1px solid #b2b8a3;*/
+    margin: 30px 10px 0;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+
+.fltitle .dsc{
+    font-size: 0.8em;
+}
+
+.fltitle02 .dsc{
+    font-size: 0.8em;
+}
+
+.flowBox01 img{
+    border-radius: 0 0 0 50px;
+    max-width: 100%;
+    margin: 31px 0 0;
+}
+
+.flowBox02 img{
+    border-radius: 0 0 50px 0;
+    max-width: 100%;
+    margin: 31px 0 0;
+    border-top: 1px solid #000;
+}
+
+.flowBox03 img{
+    border-radius: 0 0 50px 50px;
+    max-width: 100%;
+    margin: 31px 0 0;
+}
+
+.flowBox04 img{
+    border-radius: 0 0 50px 50px;
+    max-width: 100%;
+    margin: 58px 0 0;;
+}
+
+.fontColor{
+	color: #6d9288;
+	font-weight: bold;
+}

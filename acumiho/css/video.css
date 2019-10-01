@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+main{
+	width: 100%;
+}
+
+
+/*上の画像と文言*/
+.top{
+    position: absolute;
+    top: 160px;
+    left: 40%;
+    font-size: 2.5em;
+    color: #fff;
+    /*text-shadow: 1px 5px 1px #999;*/
+    z-index: 900;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+
+
+/*メインの中*/
+/*タイトル*/
+.bckWhite{
+	width: 1000px;
+	margin: 0 auto;
+	display: block;
+}
+
+.wb{
+	text-align: center;
+    margin: 100px auto 20px;
+    background: #b2b8a3;
+    padding: 5px 0;
+    border-radius: 50px 3px;
+    color: #fff;
+}
+
+.titleImg{
+	margin-right: 3px;
+    width: 40px;
+}
+
+h3{
+    font-size: 1em;
+}
+
+
+/*videoInner*/
+.videoInner{
+	margin-bottom: 100px;
+    display: flex;
+}
+
+
+.vdIn{
+    margin: 0 auto 50px;
+    width: 100%;
+}
+
+.youtubeLink{
+    width: 30%;
+    text-align: center;
+    margin: 40px auto 0;
+    background: #b2b8a3;
+    padding: 5px 0;
+    border-radius: 50px 3px;
+}
+
+.youtubeLink a{
+    text-decoration: none;
+    color: #585858;
+}
+
+.youtubeLink a:hover{
+    color: #585858;
+    opacity: 0.6;
+    transition: 1s ease;
+}

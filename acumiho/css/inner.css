@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/*background*/
+.bckWhite{
+	width: 1000px;
+	margin: 0 auto;
+	display: block;
+}
+
+.bkColor{
+	display: inline-block;
+	width: 100%;
+    margin: 0 auto;
+	background-color: #dbded4;
+}
+
+
+/*top画像とタイトル*/
+.topTitle{
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+}
+
+.topTitle img{
+    width: 100%;
+    height: auto;
+    top: 30px;
+    left: 0;
+    position: absolute;
+    margin-top: 150px;
+}
+
+/*タイトル*/
+.wb {
+    text-align: center;
+    margin: 100px auto 20px;
+    background: #b2b8a3;
+    padding: 5px 0;
+    border-radius: 50px 3px;
+    color: #fff;
+}
+
+.wb a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.wb a:hover{
+	opacity: 0.7;
+	transition: 1.2s ease;
+}
+
+.cb{
+	text-align: center;
+	margin: 100px auto 20px;
+	background: #fff;
+    padding: 5px 0;
+    border-radius: 50px 3px;
+    color: #585858;
+    width: 1000px;
+}

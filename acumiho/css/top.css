@@ -1,0 +1,324 @@
+@charset "UTF-8";
+
+/*bckWhite*/
+.specialityInner{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 100px 0;
+}
+
+.specialityInner a{
+    text-decoration: none;
+    display: block;
+}
+
+.specialityInner a:hover{
+	opacity: 0.4;
+	transition: 1.2s ease;
+}
+
+
+/*specialityBox*/
+.spcialityBox01{
+    width: 235px;
+    flex-wrap: wrap;
+    border: solid 1px #c4c9cc;
+    margin-bottom: 20px;
+    border-radius: 50px 3px;
+}
+
+.spcialityBox02{
+    width: 235px;
+    flex-wrap: wrap;
+    border: solid 1px #c4c9cc;
+    margin-bottom: 0;
+    border-radius: 50px 3px;
+}
+
+.spcialityBox01 img{
+    max-width: 100%;
+    border-radius: 50px 0px 0px;
+}
+
+.spcialityBox02 img{
+    max-width: 100%;
+    border-radius: 50px 0px 0px;
+}
+
+.spcialityBox01 .spIn{
+	padding: 10px;
+}
+
+.spcialityBox02 .spIn{
+	padding: 10px;
+}
+
+.spTitle{
+	text-align: center;
+	color: #585858;
+	border-bottom: 1px solid #b2b8a3;
+    margin-bottom: 10px;
+}
+
+.spcialityBox01 .spIn p{
+	color: #585858;
+}
+
+.spcialityBox02 .spIn p{
+	color: #585858;
+}
+
+
+/*news*/
+.newsBox{
+	width: 1000px;
+	display: flex;
+    justify-content: space-between;
+    margin:0 auto 20px;
+    padding-bottom: 100px;
+}
+
+.titleImg{
+	margin-right: 3px;
+    width: 40px;
+}
+
+.newsinfo{
+	width: 100%;
+}
+
+.newsinfo dl{
+	display: flex;
+	flex-wrap: wrap;
+	height: 150px;
+	overflow: scroll;
+	/*border: 1px solid #b2b8a3;*/
+	padding: 20px;
+	background: #fff;
+}
+
+.newsinfo dt{
+    margin: 0 10px 10px 20px;    
+    color: #585858;
+}
+
+.newsinfo dd{
+	margin-bottom: 5px;
+	margin-top: -0.2em;
+	width: 750px;
+}
+
+.newsinfo dd a{
+	display: block;
+	text-decoration: none;
+	color: #585858;
+}
+
+.newsinfo dd a:hover{
+	color: #585858;
+	background-color: #dbded4;
+	/*opacity: 0.7;*/
+	transition: 1.2s ease;
+}
+
+/*introduce*/
+.introductionBox{
+	display: flex;
+	margin:0 auto 20px;
+    padding-bottom: 100px;
+}
+
+.introductionBox img{
+	margin-right: 20px;
+}
+
+.introInner h3 a{
+	margin: 0 auto 10px;
+    font-size: 1.2em;
+    color: #797c7e;
+}
+
+.introInner p{
+	padding-right: 1.5em;
+	color: #585858;
+	margin-top: 0.5em;
+}
+
+.introInner .fontBold{
+	font-weight: bold;
+}
+
+
+/*accsessBox*/
+.accsessBox {
+	width: 1000px;
+    margin:0 auto 20px;
+    padding-bottom: 100px;
+}
+
+.accsessBox .building{
+	width: 50%;
+	height: auto;
+	margin: 0 20px 20px 0;
+}
+
+.accsessInner{
+	display: flex;
+	color: #585858;
+}
+
+.guide{
+	padding: 0em 0.3em 0.8em 0.8em;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.triangle{
+    border-top: 0.6em solid transparent;
+    border-bottom: 0.6em solid transparent;
+    border-left: 0.6em solid #6d9288;
+    margin-right: 0.3em;
+}
+
+.guide a{
+	position: relative;
+  	display: inline-block;
+  	text-decoration: none;
+	color: #585858;;
+	font-weight: bold;
+}
+
+.guide a::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #b2b8a3;
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
+}
+.guide a:hover::after {
+  bottom: -2px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.guide h3{
+	color: #585858;
+	margin-top: 1em;
+}
+
+.guide h4{
+	color: #585858;
+	margin: 0.8em auto 0; 
+}
+
+
+.fb{
+	display: flex; 
+	margin-top: 0.3em;
+}
+
+.accsessInner dl{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px 0 0 0;
+}
+
+.accsessInner dt{
+    margin: 0 0.2em 0.2em 0;
+    color: #585858;
+    width: 70px;
+}
+
+.accsessInner dd{
+    margin-bottom: 0.02em;
+    margin-top: 0.1em;
+    width: 60%;
+}
+
+
+
+
+/*　画面サイズが481px以上　960pxまでのスマホ横・タブレット画面対策　*/
+/*@media screen and (min-width:481px) and (max-width:960px) {}*/
+
+/*スマホでの表示 ブラウザ幅480px以下になったら下記の設定を使用する*/
+/*@media only screen and (max-width: 480px) {
+
+header{
+	max-width: 100%;
+}
+
+header .fbox{
+	width: 100%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+header .fbox img{
+	width: 80%;
+	padding-left: 10px;
+}
+
+header h1{
+	font-size: 0.7em;
+        margin: 0 10px 0 auto;
+    width: 30%;
+}
+
+nav ul{
+	width: 100%;
+	flex-wrap: wrap;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+nav li{
+	width: 50%;
+}
+
+nav ul li a{
+	    margin: 0 auto;
+	width: 50%;
+}
+
+.imageAndwriting{
+	height: 100%;
+}
+
+.imageAndwriting p{
+	display: none;
+}
+
+main{
+	width: 100%;
+	flex-direction: column;
+}
+
+article{
+	width: 100%;
+	flex-direction: column;
+	flex-wrap:wrap;
+	align-content: start;
+}
+
+.box{
+	width: 100%;
+	border: none;
+    margin: 0;
+}
+
+aside {
+    width: 100%;
+}
+
+aside .cul ul {
+    display: flex;}
+
+}
+*/
