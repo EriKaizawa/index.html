@@ -18,7 +18,10 @@
     <link rel="stylesheet" type="text/css" href="css/about.css">
     <link rel="stylesheet" type="text/css" href="css/works.css">
     <link href="css/lightbox.css" rel="stylesheet">
-    <link href="css/test.css" rel="stylesheet">
+    <link href="css/sp.css" rel="stylesheet">
+    <link href="css/jstest.css" rel="stylesheet">
+
+    <!-- <link href="css/test.css" rel="stylesheet"> -->
 
     <!-- googlefont -->
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
@@ -43,9 +46,11 @@
 
 
 </head>
-<body id="top">
+<body id="top" class="resizeimage">
+    <div class="wrapper">
     <header>
-        <div class="headerInner">
+        
+            <div class="headerInner">
             <div class="hRbox">
                 <div class="headLeft">
                     <a href="index.html">
@@ -71,10 +76,10 @@
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="#aboutTop">ABOUT</a></li>
-                    <li><a href="#gdTop">GRAPHIC DESIGN</a></li>
+                    <li><a href="#gdTop">GRAPHIC</a></li>
                     <li><a href="#artTop">ART</a></li>
-                    <li><a href="#webTop">WEB DESIGN</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="#webTop">WEB</a></li>
+                    <li><a href="#formTop">CONTACT</a></li>
                 </ul>
             </div>
             </div>
@@ -98,21 +103,63 @@
                 </a>
             </div>
             <div class="imgBox">
-                <a href=""><img src="images/web01.png"></a>
+                <a href="#webTop"><img src="images/webtop.png">
                 <div class="mask">
                     <div class="caption02">WEB DESIGN</div>
                 </div>
+                </a>
             </div>
         </div>
         <!-- about start -->
-        <div class="aboutInner" id="aboutTop">
-            <div class="aboutBox">
+        <div class="aboutBox" id="aboutTop">
+            <div class="aboutInner">
+                <div class="aboutImg">
                <img src="images/2night-relax_400.jpg">
+           </div>
                 <article>
-                    <h2>螺澤恵梨 <!-- <br class="sp"> --><span class="spF">-Kaizawa Eri-</span></h2>
-                    <p>主な画材はペンとアクリルガッシュ、墨。<br>脚と何かを組み合わせるのが好き。<br>主なテーマは"jamais vu”。<br>東京在住<br>お仕事の依頼・お問い合わせはこちらまで。<br>xox.kaizawa.ei.xox@gmail.com</p>
+                    <h2 class="aboutH2">螺澤恵梨 <!-- <br class="sp"> --><span class="spF">-Kaizawa Eri-</span></h2>
+                    <p class="aboutP">
+                        専門学校を卒業後、デザイン会社に就職。<br>写真のレタッチ作業を含め、キャバクラ、クラブ、美容院などの名刺、DM、ポスター、リーフレットの制作業務にありたる。<br>その後人ともっとかかわりたくなり焼き鳥居酒屋の店長をし飲めない酒を飲みつつ頑張る。<br>デザイン業界に戻り自動車学校で2校分のデザイン物（主に大学生協向け、イベント開催時のポスターチラシとう。）の制作をする。<br>ドイツへ行きバイヤーを経験（商品ページの作成、メール応対、買い付け業務）。ドイツ近郊の国へはほぼ行き買い付け業務を行う。<br>現在は職業訓練校でHTML,CSS,JS,PHPを学び、自宅ではインド人からJS,PHPをプラスで習っている。
+                    </p>
 
                     <!-- <div class="adetails"> -->
+                    <div class="detaiInner">
+                        <h3>スキル</h3>
+                        <table>
+                            <tr>
+                                <td class="td01">English</td>
+                                <td class="td02">conversation level/B2</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">Illustrator</td>
+                                <td>★★★★★</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">Photoshop</td>
+                                <td>★★★★★</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">Dreamweaver</td>
+                                <td>★★★★</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">HTML</td>
+                                <td>★★★</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">CSS</td>
+                                <td>★★★</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">JavaScript</td>
+                                <td>★</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">PHP</td>
+                                <td>★</td>
+                            </tr>   
+                        </table>
+                    </div>
                     <div class="detaiInner">
                         <h3>受賞歴</h3>
                         <dl>
@@ -140,74 +187,107 @@
                         </dl>
                     </div>    
                 </article>
-            </div> 
+                <div class="topUp01"><a href="#top">▲</a></div>
+            </div>
         </div>
-        <div class="topUp"><a href="#top">▲</a></div>
         <!-- about fin -->
         <!-- work start -->
         <!-- graphicDesign start -->
         <div class="grdesignInner" id="gdTop">
-            <h2 class="workTitle">リーフレット/チラシ</h2>
+            <section>
+                <h2 class="workTitle">リーフレット/チラシ</h2>
                 <div class="grFirst">
-                    <img src="images/gr_l01.png" alt="">
-                    <img src="images/gr_l02.png" alt="">
-                    <img src="images/gr_l03.png" alt="">
-                    <img src="images/gr_l04.png" alt="">
-                    <img src="images/gr_l05.png" alt="">
-                    <img src="images/gr_l06.png" alt="">
+                    <div class="grLeaf element js-animation">
+                        <img src="images/gr_l03.png" alt="">
+                        <p class="spNone">ショッピングモールでのイベント用チラシ</p>
+                    </div>
+                    <div class="grLeaf element js-animation">
+                        <img src="images/gr_l04.png" alt="">
+                        <p class="spNone">キャンペーン用チラシ表</p>
+                    </div>
+                    <div class="grLeaf element js-animation">
+                        <img src="images/gr_l05.png" alt="">
+                        <p class="spNone">キャンペーン用チラシ裏</p>
+                    </div>
                 </div>
+            </section>
+            <section>
                 <h2 class="workTitle">ポスター</h2>
                 <div class="grSecond">
-                        <img src="images/gr_p01.png" alt="ポスター01">
-                        <img src="images/gr_p02.png" alt="ポスター02">
-                        <img src="images/gr_p03.png" alt="ポスター03">
-                        <img src="images/gr_p04.png" alt="ポスター04">
-                        <img src="images/gr_p05.png" alt="ポスター05">
-                        <img src="images/gr_p06.png" alt="ポスター06">
-                    
+                    <div class="grPoster element js-animation cover">
+                       <img src="images/gr_p01.png" alt="ポスター01">
+                       <p class="spNone">自動車学校卒業者向け二輪免許ポスター</p>
+                    </div>
+                    <div class="grPoster element js-animation">
+                       <img src="images/gr_p02.png" alt="ポスター02">
+                       <p class="spNone">秋の自動二輪免許取得キャンペーンポスター</p>
+                    </div>
+                    <div class="grPoster02 element js-animation">
+                       <img src="images/gr_p03.png" alt="ポスター03">
+                       <p class="spNone">普通自動車免許学割キャンペーンポスター</p>
+                    </div>
+                    <!-- <img src="images/gr_p04.png" alt="ポスター04">
+                    <img src="images/gr_p05.png" alt="ポスター05">
+                    <img src="images/gr_p06.png" alt="ポスター06"> -->
                 </div>
+            </section>
+            <section>
                 <h2 class="workTitle">ブログ用バナー</h2>
-                <div class="grThierd">
+                <p class="blogSentence">自動車学校のブログに設置する為のバナーです。Webサイトのキャンペーンページに飛べるようにしていました。</p>
+                <div class="grThierd grBanner element js-animation">
+                    <!-- <div class="grBanner element js-animation"> -->
                         <img src="images/gr_b01.png" alt="ブログ用バナー01">
                         <img src="images/gr_b02.png" alt="ブログ用バナー02">
+                    <!-- </div> -->
+                    <!-- <div class="grBanner element js-animation"> -->
                         <img src="images/gr_b03.png" alt="ブログ用バナー03">
                         <img src="images/gr_b04.png" alt="ブログ用バナー04">
-                        <img src="images/gr_b05.png" alt="ブログ用バナー05">
-                        <img src="images/gr_b06.png" alt="ブログ用バナー06">
+                    <!-- </div> -->
+                    
                 </div>
+            </section>   
+            <section>
                 <h2 class="workTitle">その他</h2>
                 <div class="grFourth">
-                    <div class="tissueBox01">
-                            <img src="images/gr_o02.png" alt="ポケットティッシュ" title="ポケットティッシュ">
-                                <div class="tissueRight01">
-                                    <img src="images/gr_o02_01.png" alt="ポケットティッシュ表" title="ポケットティッシュ表">
-                                    <img src="images/gr_o02_02.png" alt="ポケットティッシュ裏" title="ポケットティッシュ裏">
-                                </div>
+                    <div>
+                        <div class="tissueBox01 element js-animation">
+                        <img src="images/gr_o02.png" alt="ポケットティッシュ" title="ポケットティッシュ">
+                        <div class="tissueRight01">
+                            <img src="images/gr_o02_01.png" alt="ポケットティッシュ表" title="ポケットティッシュ表">
+                            <img src="images/gr_o02_02.png" alt="ポケットティッシュ裏" title="ポケットティッシュ裏">
                         </div>
-                        <div class="tissueBox02">
-                            <img src="images/gr_o03.png" alt="ポケットティッシュ" title="ポケットティッシュ">
-                                <div class="tissueRight02">
-                                    <img src="images/gr_o03_01.png" alt="ポケットティッシュ表" title="ポケットティッシュ表">
-                                    <img src="images/gr_o03_02.png" alt="ポケットティッシュ裏" title="ポケットティッシュ裏">
-                                </div>
+                    </div>
+                        <p class="otherSentence">配布用ポケットティッシュ</p>
+                    </div>
+                    <div>
+                        <div class="tissueBox02 element js-animation">
+                        <img src="images/gr_o03.png" alt="ポケットティッシュ" title="ポケットティッシュ">
+                        <div class="tissueRight02">
+                            <img src="images/gr_o03_01.png" alt="ポケットティッシュ表" title="ポケットティッシュ表">
+                            <img src="images/gr_o03_02.png" alt="ポケットティッシュ裏" title="ポケットティッシュ裏">
                         </div>
-                        <div class="clrFile">
-                            <img src="images/gr_o01_1.png" alt="クリアファイルデザイン" title="クリアファイル01">
-                            <img src="images/gr_o01_2.png" alt="クリアファイルデザイン" title="クリアファイル02">
-                            <img src="images/gr_o01_3.png" alt="クリアファイルデザイン" title="クリアファイル03">
-                        </div>
+                    </div>
+                    <p class="otherSentence">配布用ポケットティッシュ</p>
+                    </div>
+                    
+                    <div class="clrFile element js-animation">
+                        <img src="images/gr_o01_1.png" alt="クリアファイルデザイン" title="クリアファイル01">
+                        <img src="images/gr_o01_2.png" alt="クリアファイルデザイン" title="クリアファイル02">
+                        <img src="images/gr_o01_3.png" alt="クリアファイルデザイン" title="クリアファイル03">
+                    </div>
+                    <p class="fileSentence">クリアファイルデザイン案</p>
                 </div>
-
+            </section>   
+                
+                <div class="topUp"><a href="#top">▲</a></div>
         </div>
-        <div class="topUp"><a href="#top">▲</a></div>
+        
         <!-- graphicDesign fin -->
-        <!-- webDesign start -->
-        <!-- webDesign fin -->
         <!-- art start -->
         <div class="artBox" id="artTop">
-            <div class="artInner">
+            <section class="artInner">
             <h2 class="workTitle02">絵</h2>
-                <div class="artFirst">
+                <div class="artFirst element js-animation is-show">
                     <ul>
                         <li><a href="images/2night_relax_400.jpg" data-lightbox="image" title="2night-relaxed<br>297×210mm<br>アクリルガッシュ、ペン"><img src="images/2night_relax_235.png" alt="lightbox01"></a></li>
                         <li><a href="images/2night_talk_400.jpg" data-lightbox="image" title="2night-talking<br>297×210mm<br>アクリルガッシュ、ペン"><img src="images/2night_talk_235.png" alt="lightbox02"></a></li>
@@ -215,7 +295,7 @@
                         <li><a href="images/blue.png" data-lightbox="image" title="青いインコ<br>1456×1030mm<br>アクリルガッシュ、ペン、プリント"><img src="images/blue_235.png" alt="lightbox04"></a></li>
                     </ul>
                 </div>
-                <div class="artSecond">
+                <div class="artSecond element js-animation is-show">
                     <ul>
                         <li><a href="images/dreaming.png" data-lightbox="image" title="dreaming/夢現<br>148×100mm<br>インク、ペン"><img src="images/dreaming_235.png" alt="lightbox05"></a></li>
                         <li><a href="images/inthesea.png" data-lightbox="image" title="in the Sea/海の中<br>297×210mm<br>インク、ペン"><img src="images/inthesea_235.png" alt="lightbox06"></a></li>
@@ -223,21 +303,49 @@
                         <li><a href="images/welcome.png" data-lightbox="image" title="welcome<br>297×210mm<br>アクリルガッシュ、ペン"><img src="images/welcome_235.png" alt="lightbox08"></a></li>
                     </ul>
                 </div>
-            </div>
+                <div class="topUp"><a href="#top">▲</a></div>
+            </section>
         </div>
-        <div class="topUp"><a href="#top">▲</a></div>
         <!-- art fin -->
+        <!-- webDesign start -->
+        <div class="webBox" id="webTop">
+            <!-- <div class="webInner"> -->
+                <h2 class="workTitle">WEB DESIGN</h2>
+            <!-- </div> -->
+            <div class="webFirst element js-animation is-show">
+                <a href="sado/index.html" target="_blank"><img src="images/web01.png" alt="sado"></a>
+                <a href="kurinoya/index.html" target="_blank"><img src="images/web02.png" alt=""></a>
+            </div>
+            <div class="webSecond element js-animation is-show">
+                <a href="acumiho/index.html" target="_blank"><img src="images/web03.png" alt=""></a>
+                <img src="images/web04.png" alt="">
+            </div>
+            <div class="topUp"><a href="#top">▲</a></div>
+        </div>
+        <!-- webDesign fin -->
         <!-- work fin -->
+        <!-- form start-->
+        <div class="formBox element js-animation is-show" id="formTop">
+            <div class="formInner">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf5qAYRhnLlJZEeeyRvwVXeztIlbtxzO3l4G2uJJ_hXPvZjGg/viewform?embedded=true" width="1000" height="797" frameborder="0" marginheight="0" marginwidth="0" class="form">読み込んでいます…</iframe>
+                <div class="topUp"><a href="#top">▲</a></div>
+            </div>  
+        </div>
+        
+        <!-- form fin -->
     </main>
     <footer>       
         
-        <p><small>Copyright　EriKaizawa　All Rights Reserved.</small></p>
+        <p><small>&copy;2019　EriKaizawa</small></p>
     </footer>
 
     <!-- jpuery start -->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/jQuerySlideshow.js"></script>
+    <!-- <script type="text/javascript" src="js/jQuerySlideshow.js"></script> -->
     <script type="text/javascript" src="js/lightbox.js"></script>
-    <!-- jquery fin -->
+    <script type="text/javascript" src="js/animetest.js"></script>
+<!-- jquery fin -->
 </body>
+        </div>
+        
 </html>
