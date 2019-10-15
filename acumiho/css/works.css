@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+.imgBox{
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    margin: 50px auto 0;
+    position: relative;
+}
+
+.imgBox img{
+	width: 300px;
+	height: 400px;
+	border: solid 1px #393f4c;
+}
+
+
+/*グラフィック*/
+.grdesignInner{
+    width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.workTitle{
+    background-color: #eaf4fc;
+    width: 1000px;
+    margin: 0 auto 30px;
+    text-align: center;
+    color: #393f4c;
+    padding: 0.3em 0 0.2em;
+}
+
+/*リーフレット/チラシ*/
+.grFirst{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.grLeaf {
+    width: 32%;
+    margin: 0 20px 10px 0;
+}
+
+.grLeaf p{
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.grFirst .grLeaf img {
+    max-width: 320px;
+    height: auto;
+    margin: 0 0 10px 0;
+    border: solid #393f4c 1px;
+}
+
+.grLeaf:last-child{
+    margin-right: 0;
+}
+
+/*ポスター*/
+.grSecond{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.grPoster{
+    width: 32%;
+    margin: 0 20px 10px 0;
+}
+
+.grPoster p{
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.grSecond .grPoster img{
+    max-width: 320px;
+    height: auto;
+    margin: 0 0 10px 0;
+    border: solid #393f4c 1px;
+}
+
+.grPoster:last-child {
+    margin-right: 0;
+}
+
+
+/*ブログバナー*/
+.grThierd{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.grBanner{
+    display: flex;
+}
+
+.blogSentence{
+    text-align: center;
+    margin: 0 auto 20px;
+    font-size: 0.9em;
+}
+
+.grThierd .grBanner img {
+    max-width: 490px;
+    height: auto;
+    margin: 0 20px 20px 0;
+    border: solid #393f4c 1px;
+}
+
+.grThierd img:last-child{
+    margin-right: 0px;
+}
+
+/*その他*/
+.grFourth{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.tissueBox01{
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.tissueRight01{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 0 5px;
+}
+
+.tissueRight01 img:last-child{
+    border-top: solid 1px #fff;
+}
+
+.tissueBox02{
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.tissueRight02{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 5px;
+}
+
+.tissueRight02 img:last-child{
+    border-top: solid 1px #fff;
+}
+
+.otherSentence {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+
+.clrFile{
+    display: flex;
+}
+
+.clrFile img{
+    margin: 0 20px 0 0;
+}
+
+.clrFile img:last-child{
+    margin: 0;
+}
+
+.fileSentence {
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+/*art*/
+.artBox{
+    width: 100%;
+    background-color: #eaf4fc;
+}
+
+.artInner{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+    
+}
+
+.workTitle02{
+    background-color: #fff;
+    width: 1000px;
+    margin: 0 auto 30px;
+    text-align: center;
+    color: #393f4c;
+    padding: 0.3em 0 0.2em;
+}
+
+.artFirst ul{
+    display: flex;
+    list-style: none;
+}
+
+.artFirst li{
+    margin: 0 20px 20px 0;
+}
+
+.artFirst li:last-child{
+    margin-right: 0;
+}
+
+/*.artFirst ul li a{
+    background-color: #84a2d4;
+}*/
+
+.artFirst li a:hover {
+    opacity: 0.6;
+    transition: 1.2s ease;
+}
+
+.artSecond ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 5em;
+}
+
+.artSecond li{
+    margin: 0 20px 20px 0;
+}
+
+.artSecond li:last-child{
+    margin-right: 0;
+}
+
+.artSecond li a:hover {
+    opacity: 0.6;
+    transition: 1.2s ease;
+}
+
+
+/*web*/
+.webBox{
+    width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.webFirst{
+    display: flex;
+}
+
+.webFirst img{
+    display: flex;
+    margin: 0 20px 20px 0;
+}
+
+.webFirst a{
+    color: #000;
+    display: block;
+    transition: 0.8s ;
+    position: relative;
+    text-decoration: none;
+    margin: 0 0 20px 0;
+    padding-bottom: 30px;
+    }
+
+.webFirst a:hover{
+    opacity: 0.7;
+    background-color: #fff;
+    color: #4169e1;
+    opacity: 0.5 ;
+}
+
+.webSecond{
+    margin-bottom: 4em;
+    display: flex;
+}
+
+.webSecond a{
+    color: #000;
+    display: block;
+    transition: 0.8s ;
+    position: relative;
+    text-decoration: none;
+    margin: 0 0 20px 0;
+    padding-bottom: 30px;
+    }
+
+.webSecond a:hover{
+    opacity: 0.7;
+    background-color: #fff;
+    color: #4169e1;
+    opacity: 0.5 ;
+}
+
+/*.webFirst img:last-child{
+    margin: 0 0 20px 0;
+}
+*/
+
+/*画像をふんわり*/
+.js-animation {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(40px);
+  transition: all 1s;
+}
+.js-animation.is-show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
