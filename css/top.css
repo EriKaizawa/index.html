@@ -1,16 +1,7 @@
 @charset "UTF-8";
-
-.hRbox{
-    width: 100%;
-    position: relative;
-    margin: 1.7em 1em 0 0.5em;
-    font-size: 2.5em;
-    text-decoration: none;
-}
-
 .imgInner{
 	display: flex;
-	margin: 0 auto;
+	margin: 0 auto 100px;;
 	width: 1000px;
 }
 
@@ -69,3 +60,16 @@
 .imgBox:hover .mask {
 	top:			0;	/* 下に降りてくるように見せる */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
