@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/*EventPage*/
+/*topImg*/
+.imageAndwriting .welcome{
+	position: absolute;
+	top: 180px;
+	left: 200px;
+	width: auto;
+}
+
+/*article*/
+.spotP{
+	margin: 0 20px 0 0;
+	width: 700px;
+}
+
+.spotTitle{
+	color: #4169e1;
+	background-color: #fff;
+	border-bottom: solid 1px #4169e1;
+	border-left: solid 5px #0000cd;
+	padding-left: 10px;
+}
+
+.spotBox{
+	border: solid 1px #4169e1;
+	margin: 0 20px 20px 0;
+	background: #fff;
+	border-radius: 5px 0px 5px 0px;
+}
+
+.spotBox h3{
+	border-bottom: solid 1px #4169e1;
+	padding: 5px 0 3px 15px;
+	color: #4169e1;
+	font-weight: bold;
+}
+
+.spotP p{
+	margin: 1em;
+}
+
+.spotBox p{
+	margin: 15px;
+}
+
+.fBox{
+	display: flex;
+}
+
+.inBoxImg{
+	margin: 5px;
+}
+
+
+
+
+*　画面サイズが481px以上　960pxまでのスマホ横・タブレット画面対策　*/
+@media screen and (min-width:481px) and (max-width:960px) {}
+
+/*スマホでの表示 ブラウザ幅480px以下になったら下記の設定を使用する*/
+@media only screen and (max-width: 480px) {
+.spotP{
+	margin: 0 auto;
+	width: 100%;}
+
+.spotTitle{
+	margin: 0 10px;
+}
+
+.spotBox {
+    margin: 10px; 
+    border-radius: 7px;
+}
+
+.fBox{
+	flex-direction: column;
+}
+
+}

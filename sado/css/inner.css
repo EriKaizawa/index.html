@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/*参考カラー
+#ff8f56 #984a59 #60424c #efe7da #ddd5c5*/
+
+/* 中面のarticle設定 */
+.inner{width:700px;
+    padding-right: 20px;}
+
+.inner h2{
+    padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+    margin-bottom:1em;
+    color: #494949;/*文字色*/
+    background: #ddd5c5;/*背景色*/
+    border-left: solid 5px #60424c;/*左線*/
+    border-bottom: solid 1px #984a59;/*下線*/}
+
+
+/* 観光ページ */
+.spot{border: 1px solid #60424c;/*枠線指定*/
+	margin: 20px 0 0 0;/*外側上の余白指定*/
+	border-radius: 5px;/*ボックスの角を丸くする*/
+    background-color: #ddd5c5;}
+
+.spot div{display: flex;}/*divの中にあるpタグとimgタグを横並びにするため*/
+
+.spot h3{color: #984a59;
+	font-size: 18px;
+	border-bottom: 1px solid #60424c;/*下に線を入れる*/
+	padding: 10px 0 0 10px;
+	margin: 0 0 10px 0;}
+
+.spot img{margin: 0 10px 10px 20px;}
+
+.spot p{margin: 0 10px;}/*外側左右の余白指定*/
+
+
+/*アクセスページ*/
+.line{border-bottom:2px dotted #984a59;/*下線に線を入れる*/
+    padding-bottom: 20px;}
+
+
+/*お問い合わせ　teble form部分*/
+.inner table{font-size:16px;
+	padding: 10px;}
+
+.inner h2{
+    padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: #ddd5c5;/*背景色*/
+    border-left: solid 5px #60424c;/*左線*/
+    border-bottom: solid 1px #984a59;/*下線*/}
+
+.inner th{width: 200px;
+	height: 30px;
+	text-align: left;
+	vertical-align: top;/*セルの中で上揃えにする*/
+	padding-top: 10px;
+    margin-bottom: 20px;}
+
+input[type="text"],input[type="email"],textarea,input[type="radio"],input[type="checkbox"],select{
+
+input[type="text"],input[type="email"],textarea {/*typeに入っている項目はこの設定を入れる*/
+	padding: 5px;
+	border: #333 1px solid;}
+
+input[type="text"]:focus {background: #e8efda;}/*この箇所を選択している時に背景色を変える*/
+
+input[type="email"]:focus {background: #e8efda;}/*この箇所を選択している時に背景色を変える*/
+
+textarea:focus {background: #e8efda;}/*この箇所を選択している時に背景色を変える*/
+
+.center {text-align:center;
+    margin-top: 30px;}
+
+.button {padding: 10px;
+    font-size: 16px;
+    background-color: #ff8f56;
+    border-style: none;
+    width: 40%;
+    transition: 0.5s ease}
+
+.button:hover {opacity: 0.5;}
+
