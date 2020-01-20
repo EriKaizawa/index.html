@@ -1,0 +1,343 @@
+/*.js-animation {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(40px);
+  transition: all 1s;
+}
+.js-animation.is-show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+  margin: 0 auto 20px 0;
+}
+*/
+
+/*1つずつ*/
+.fadein {
+	opacity : 0.1;
+	transform : translate(0px, 100px);
+	transition : all 500ms;
+	}
+.fadein.scrollin {
+	opacity : 1;
+	transform : translate(0px, 0px);
+	}
+
+#effect2 .fadein:nth-of-type(2) {
+	-moz-transition-delay:200ms;
+	-webkit-transition-delay:200ms;
+	-o-transition-delay:200ms;
+	-ms-transition-delay:200ms;
+	}
+#effect2 .fadein:nth-of-type(3) {
+	-moz-transition-delay:400ms;
+	-webkit-transition-delay:400ms;
+	-o-transition-delay:400ms;
+	-ms-transition-delay:400ms;
+	}
+
+
+
+
+
+
+
+
+
+
+
+@charset "UTF-8";
+
+.imgBox{
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    margin: 50px auto 0;
+    position: relative;
+}
+
+.imgBox img{
+	width: 300px;
+	height: 400px;
+	border: solid 1px #393f4c;
+}
+
+.imgBox .caption01 {
+    font-size: 3em;
+    color: #fff;
+    padding-top: 150px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.imgBox .caption02 {
+    font-size: 3em;
+    color: #fff;
+    padding-top: 150px;
+    padding-left: 0;
+    text-align: center;
+}
+
+.imgBox .caption03 {
+    font-size: 3em;
+    color: #fff;
+    padding-top: 170px;
+    padding-left: 0;
+    text-align: center;
+}
+
+.imgBox .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			-100%;	/* 枠の上に置いて表示させない */
+	left:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 1s ease;
+	transition:		all 1s ease;
+}
+.imgBox:hover .mask {
+	top: 0;	/* 下に降りてくるように見せる */
+}
+
+
+/*グラフィック*/
+.grdesignInner{
+    width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.workTitle{
+    background-color: #eaf4fc;
+    width: 1000px;
+    margin: 0 auto 30px;
+    text-align: center;
+    color: #393f4c;
+    padding: 0.3em 0 0.2em;
+}
+
+/*リーフレット/チラシ*/
+.grFirst{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.grFirst .js-animation img{
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto 20px 0;
+    border: solid #393f4c 1px;
+}
+
+.grFirst img:nth-child(3n){
+    margin-right: 0;
+}
+
+/*ポスター*/
+.grSecond{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.grSecond img{
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto 20px 0;
+    border: solid #393f4c 1px;
+}
+
+.grSecond img:nth-child(3n) {
+    margin-right: 0;
+}
+
+.grSecond img:nth-child(7){
+    margin-right: 0;
+}
+
+/*ブログバナー*/
+.grThierd{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.grThierd img{
+    max-width: 490px;
+    height: auto;
+    margin: 0 auto 20px 0;
+    border: solid #393f4c 1px;
+}
+
+.grThierd img:nth-child(odd) {
+    margin-right: 20px;
+}
+
+/*その他*/
+.grFourth{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.tissueBox01{
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.tissueRight01{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 0 5px;
+}
+
+.tissueRight01 img:last-child{
+    border-top: solid 1px #fff;
+}
+
+.tissueBox02{
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.tissueRight02{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 5px;
+}
+
+.tissueRight02 img:last-child{
+    border-top: solid 1px #fff;
+}
+
+.clrFile{
+    display: flex;
+}
+
+.clrFile img{
+    margin: 0 20px 0 0;
+}
+
+.clrFile img:last-child{
+    margin: 0;
+}
+
+
+
+/*art*/
+.artBox{
+    width: 100%;
+    background-color: #eaf4fc;
+}
+
+.artInner{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+    
+}
+
+.workTitle02{
+    background-color: #fff;
+    width: 1000px;
+    margin: 0 auto 30px;
+    text-align: center;
+    color: #393f4c;
+    padding: 0.3em 0 0.2em;
+}
+
+.artFirst ul{
+    display: flex;
+    list-style: none;
+}
+
+.artFirst li{
+    margin: 0 20px 20px 0;
+}
+
+.artFirst li:last-child{
+    margin-right: 0;
+}
+
+.artSecond ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 5em;
+}
+
+.artSecond li{
+    margin: 0 20px 20px 0;
+}
+
+.artSecond li:last-child{
+    margin-right: 0;
+}
+
+
+/*web*/
+.webBox{
+    width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.webFirst{
+    display: flex;
+}
+
+.webFirst img{
+    display: flex;
+    margin: 0 20px 20px 0;
+}
+
+.webFirst a{
+    color: #000;
+    display: block;
+    transition: 0.8s ;
+    position: relative;
+    text-decoration: none;
+    margin: 0 0 20px 0;
+    padding-bottom: 30px;
+    }
+
+.webFirst a:hover{
+    opacity: 0.7;
+    background-color: #fff;
+    color: #4169e1;
+    opacity: 0.5 ;
+}
+
+.webSecond{
+    margin-bottom: 4em;
+    display: flex;
+}
+
+.webSecond a{
+    color: #000;
+    display: block;
+    transition: 0.8s ;
+    position: relative;
+    text-decoration: none;
+    margin: 0 0 20px 0;
+    padding-bottom: 30px;
+    }
+
+.webSecond a:hover{
+    opacity: 0.7;
+    background-color: #fff;
+    color: #4169e1;
+    opacity: 0.5 ;
+}
+
+/*.webFirst img:last-child{
+    margin: 0 0 20px 0;
+}
+*/
