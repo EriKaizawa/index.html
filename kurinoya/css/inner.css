@@ -1,0 +1,105 @@
+@charset "utf-8";
+/*下層ページ共通*/
+h2{
+	position: absolute;
+    top: 250px;
+    left: 250px;
+    text-shadow: 0.05em 0.09em 0.01em #640125;
+    font-size: 4em;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+
+/*コースページ*/
+.foodCourse{
+    width: 100%;
+    margin: 0 0 3em 0;
+    background-color: #fff;
+    padding: 0.4em;
+}
+
+.foodCourse h3{
+    color: #640125;
+    border-left: solid 10px #640125;
+    background-color: #fff;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.foodCourse a{
+    display: block;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #640125;
+    padding: 0.5em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.foodCourse a:hover{
+    color: #fff;
+    background-color: #640125;
+}
+
+.foodCourse img{
+    margin: 0.5em;
+}
+
+
+.foodInner{
+    display: flex;
+    align-items: flex-start; 
+}
+
+.article{
+    margin: 0 1em;
+    width: 700px;
+}
+
+.article dl{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2em 0;
+}
+
+.article dt{
+    width: 100%;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.article dd{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 3px;
+}
+
+/*アクセスページ*/
+.details{
+	    margin: 20px auto;
+}
+
+.details dt{
+	float: left;
+    font-weight: bold;
+    width: 7em;
+}
+
+.details dd{
+	margin-bottom: 1em;
+}
+
+.banner{
+	width: 1000px;
+}
+
+.bannerIn{
+	    display: flex;
+	    justify-content: space-between;
+}
+
+.bannerIn img{
+	    margin: 20px auto;
+}
+

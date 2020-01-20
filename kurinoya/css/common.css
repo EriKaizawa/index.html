@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/*リセット　必要な部分のみ*/
+body,h1,h2,h3,p,ul,li,dl,dt,dd,select,form{margin:0;padding:0;}
+ul{list-style-type:none;}/*・を消す*/
+img{vertical-align: bottom;/*画像の下にある余白を消す*/
+    max-width:100%;/*最大幅の設定*/
+    border: 0;}/*画像にリンクを貼った時に枠線が出るのを防ぐ*/
+
+/*これが入っていると、widthの設定をする際にpaddingとborderの数値を気にせずに出来る　*は全要素に適用するという意味　*/
+*{box-sizing: border-box;}
+
+/*全体の設定*/
+body {background: #fffff0;
+      font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic';}
+
+/*pタグの全ての行間は1.5文字分あける*/
+p{line-height: 1.5;}
+
+/*リンク（全般）設定*/
+a{
+	transition: 0.8s ease;
+	text-decoration: none;
+	color: #640125;
+}
+
+a:hover{
+	opacity: 0.7;
+}
+
+img{vertical-align: bottom;}
+
+/*header*/
+header{width: 100%;}
+
+.header_inside{
+	width: 1000px;
+	display: flex;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+.headerBox{
+	margin: 0 2em 0 auto;
+	right: 0em;
+}
+.sNs{
+	display: inline-block;
+	font-size: 2em;
+    margin: 0.2em 0.5em 0 0.5em;
+    position: absolute;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 1.5em;
+}
+
+h1{
+	color: #3f312b;
+	font-size: 3em;
+}
+
+h1 .smlS{font-size: 0.5em;}
+
+.wf-sawarabimincho {
+    font-family: "Sawarabi Mincho";
+}
+
+
+/*お問い合わせボタン*/
+.infO{
+	position: right;
+}
+
+.infO a{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+  	padding: 0.5em 1em;
+  	text-decoration: none;
+  	background: #b7282e;
+  	color: #FFF;
+  	border-bottom: solid 4px #640105;
+  	border-radius: 3px;
+  	font-weight: bold;
+  	height: 45px;
+}
+
+.infO:active {
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+/*nav*/
+nav{
+	width: 100%;
+	background-color: #640125;
+}
+
+nav ul{
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+	display: flex;
+}
+
+nav li{
+	width: 25%;
+	text-align: center;
+	border-left: 2px solid #8f2e14;
+    background-color: #752100;
+}
+
+nav li:last-child{
+	border-right: 2px solid #8f2e14;
+}
+
+nav li a{
+	display: block;
+	padding: 15px 0;
+	color: #fff;
+}
+
+nav li a:hover{
+	background: #8f2e14;
+	color: #fff;
+	/*font-weight: bold;*/
+	opacity: 0.9
+}
+
+/*main*/
+main{
+	display: block;
+	width: 1000px;
+	margin: 25px auto 0 auto;
+}
+
+/*文字サイズ指定*/
+.small01{
+	font-size: 0.4em;
+}
+
+.small02{
+	font-size: 0.7em;
+}
+
+/*footer*/
+footer{
+	background: #640125;
+	color: #fff;
+	font-size: 1em;
+	padding: 15px;
+	margin-top: 20px;
+	text-align: center;
+	position: relative;
+}
+
+/*page top*/
+.topUp{
+	margin: 10px 0;
+	position: absolute;
+	bottom: 2em;
+	right: 1em;
+}
+
+.topUp a{
+	color: #fff;
+	padding: 5px 30px;
+	display: block;
+	background: #640125;
+	border-radius: 5px 5px 0 0;
+}
+
