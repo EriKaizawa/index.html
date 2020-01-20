@@ -27,6 +27,7 @@
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/top.css">
     <link rel="stylesheet" type="text/css" href="css/inner.css">
+    <link rel="stylesheet" type="text/css" href="css/sp.css">
 
 	<!-- googlefont -->
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
@@ -52,6 +53,7 @@
 
 </head>
 <body id="top">
+	<div class="wrapper">
 	<header>
 		<div class="headerInner">
 			<div class="headerBox">
@@ -77,16 +79,23 @@
                 </div>
             </div>
 		</div>
-		<nav>
-			<ul>
-				<li><a href="index.html" alt="ホーム">ホーム</a></li>
-				<li><a href="about.html" alt="Acumihoとは">Acumihoとは</a></li>
-				<li><a href="list.html" alt="症状リスト">症状リスト</a></li>
-				<li><a href="price.html" alt="料金">料金</a></li>
-				<li><a href="video.html" alt="ビデオ">ビデオ</a></li>
-				<li><a href="http://www.acumihotokyo.com/contact-2/" alt="お問い合わせ">お問い合わせ</a></li>
-			</ul>
-		</nav>
+			<nav>
+				<div id="nav-drawer">
+            		<input id="nav-input" type="checkbox" class="nav-unshown">
+            		<label id="nav-open" for="nav-input"><span></span></label>
+            		<label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            		<div id="nav-content">
+						<ul>
+							<li><a href="index.html" alt="ホーム">ホーム</a></li>
+							<li><a href="about.html" alt="Acumihoとは">Acumihoとは</a></li>
+							<li><a href="list.html" alt="症状リスト">症状リスト</a></li>
+							<li><a href="price.html" alt="料金">料金</a></li>
+							<li><a href="video.html" alt="ビデオ">ビデオ</a></li>
+							<li><a href="http://www.acumihotokyo.com/contact-2/" alt="お問い合わせ">お問い合わせ</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 		<!-- slidShow -->
     	
    <!--  </div> -->
@@ -196,7 +205,7 @@
         	</div>
         </div>
         	<div class="bckWhite">
-        		<h2 class="wb"><a href="" alt="自己紹介詳しくはこちら"><img src="image/logo.png" alt="Acumihoロゴ" class="titleImg">自己紹介</a></h2>
+        		<h2 class="wb"><a href="about.html" alt="Acumihoとは"><img src="image/logo.png" alt="Acumihoロゴ" class="titleImg">自己紹介</a></h2>
 	        		<div class="introductionBox">
 						<img src="image/miho.png" alt="院長Miho">
 						<div class="introInner">
@@ -231,7 +240,7 @@
 				            </dl>
 						</div>	
 					</div>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.9247135746796!2d139.70213181525807!3d35.65422648020052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5b073d378d%3A0x1e3280121e6a0b8a!2z44Gv44KK44GN44KF44GG5LiJ5pa55aCC5rK755mC6Zmi!5e0!3m2!1sja!2sjp!4v1567055666887!5m2!1sja!2sjp" width="1000" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.9247135746796!2d139.70213181525807!3d35.65422648020052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5b073d378d%3A0x1e3280121e6a0b8a!2z44Gv44KK44GN44KF44GG5LiJ5pa55aCC5rK755mC6Zmi!5e0!3m2!1sja!2sjp!4v1567055666887!5m2!1sja!2sjp" width="1000" height="250" frameborder="0" style="border:0;" allowfullscreen="" class="map"></iframe>
 				</div>
 			</div>
     </main>
@@ -239,6 +248,7 @@
     	<div class="topUp"><a href="#top">▲</a></div>
     <p><small>Copyright　EriKaizawa　All Rights Reserved.</small></p>
 </footer>
+</div>
 
     <!-- jpuery start -->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>

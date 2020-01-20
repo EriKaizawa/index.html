@@ -116,7 +116,7 @@
                 <div class="aboutImg">
                <img src="images/2night-relax_400.jpg">
            </div>
-                <article>
+                <article class="intro">
                     <h2 class="aboutH2">螺澤恵梨 <!-- <br class="sp"> --><span class="spF">-Kaizawa Eri-</span></h2>
                     <p class="aboutP">
                         専門学校を卒業後、デザイン会社に就職。<br>写真のレタッチ作業を含め、キャバクラ、クラブ、美容院などの名刺、DM、ポスター、リーフレットの制作業務にありたる。<br>その後人ともっとかかわりたくなり焼き鳥居酒屋の店長をし飲めない酒を飲みつつ頑張る。<br>デザイン業界に戻り自動車学校で2校分のデザイン物（主に大学生協向け、イベント開催時のポスターチラシとう。）の制作をする。<br>ドイツへ行きバイヤーを経験（商品ページの作成、メール応対、買い付け業務）。ドイツ近郊の国へはほぼ行き買い付け業務を行う。<br>現在は職業訓練校でHTML,CSS,JS,PHPを学び、自宅ではインド人からJS,PHPをプラスで習っている。
@@ -187,8 +187,8 @@
                         </dl>
                     </div>    
                 </article>
-                <div class="topUp01"><a href="#top">▲</a></div>
             </div>
+            <div class="topUp01"><a href="#top">▲</a></div>
         </div>
         <!-- about fin -->
         <!-- work start -->
@@ -289,7 +289,7 @@
             <h2 class="workTitle02">絵</h2>
                 <div class="artFirst element js-animation is-show">
                     <ul>
-                        <li><a href="images/2night_relax_400.jpg" data-lightbox="image" title="2night-relaxed<br>297×210mm<br>アクリルガッシュ、ペン"><img src="images/2night_relax_235.png" alt="lightbox01"></a></li>
+                        <li><a href="images/2night-relax_400.jpg" data-lightbox="image" title="2night-relaxed<br>297×210mm<br>アクリルガッシュ、ペン"><img src="images/2night_relax_235.png" alt="lightbox01"></a></li>
                         <li><a href="images/2night_talk_400.jpg" data-lightbox="image" title="2night-talking<br>297×210mm<br>アクリルガッシュ、ペン"><img src="images/2night_talk_235.png" alt="lightbox02"></a></li>
                         <li><a href="images/red.png" data-lightbox="image" title="赤いインコ<br>1456×1030mm<br>アクリルガッシュ、ペン、プリント"><img src="images/red_235.png" alt="lightbox03"></a></li>
                         <li><a href="images/blue.png" data-lightbox="image" title="青いインコ<br>1456×1030mm<br>アクリルガッシュ、ペン、プリント"><img src="images/blue_235.png" alt="lightbox04"></a></li>
@@ -303,7 +303,7 @@
                         <li><a href="images/welcome.png" data-lightbox="image" title="welcome<br>297×210mm<br>アクリルガッシュ、ペン"><img src="images/welcome_235.png" alt="lightbox08"></a></li>
                     </ul>
                 </div>
-                <div class="topUp"><a href="#top">▲</a></div>
+                <div class="topUp topUpArt"><a href="#top">▲</a></div>
             </section>
         </div>
         <!-- art fin -->
@@ -318,17 +318,21 @@
             </div>
             <div class="webSecond element js-animation is-show">
                 <a href="acumiho/index.html" target="_blank"><img src="images/web03.png" alt=""></a>
-                <img src="images/web04.png" alt="">
+                <a href="dm/index.html" target="_blank"><img src="images/web04.png" alt=""></a>
             </div>
-            <div class="topUp"><a href="#top">▲</a></div>
+            <div class="webThierd element js-animation is-show">
+                <a href="kaizawa_submit/index.html" target="_blank"><img src="images/web05.png" alt=""></a>
+                <!-- <a href="dm/index.html"><img src="images/web06.png" alt=""></a> -->
+            </div>
+            <div class="topUp topUpweb"><a href="#top">▲</a></div>
         </div>
         <!-- webDesign fin -->
         <!-- work fin -->
         <!-- form start-->
         <div class="formBox element js-animation is-show" id="formTop">
             <div class="formInner">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf5qAYRhnLlJZEeeyRvwVXeztIlbtxzO3l4G2uJJ_hXPvZjGg/viewform?embedded=true" width="1000" height="797" frameborder="0" marginheight="0" marginwidth="0" class="form">読み込んでいます…</iframe>
-                <div class="topUp"><a href="#top">▲</a></div>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf5qAYRhnLlJZEeeyRvwVXeztIlbtxzO3l4G2uJJ_hXPvZjGg/viewform?embedded=true" width="1000" height="900" frameborder="0" marginheight="0" marginwidth="0" class="form">読み込んでいます…</iframe>
+                <div class="topUpLast"><a href="#top">▲</a></div>
             </div>  
         </div>
         
@@ -344,7 +348,14 @@
     <!-- <script type="text/javascript" src="js/jQuerySlideshow.js"></script> -->
     <script type="text/javascript" src="js/lightbox.js"></script>
     <script type="text/javascript" src="js/animetest.js"></script>
-<!-- jquery fin -->
+
+    <!--[if lt IE 9]--> 
+    <script src="js/html5shiv.js"></script>
+    <script type="text/javascript">
+    document.createElement('main');
+    </script>
+    <![endif]-->
+    <!-- jquery fin -->
 </body>
         </div>
         

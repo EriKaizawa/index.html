@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+/*指定したタグの余白をなくす*/
+body,h1,h2,h3,ul,p,dl{margin: 0;
+	padding: 0;}
+
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+p{line-height: 1.5;}
+
+/*タグセレクタ*/
+body {
+	font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+	background-color: #fff;
+}
+
+/*サイトを読み込むときの書体設定　詳細が書かれています。↓↓↓↓↓↓↓ 
+https://saruwakakun.com/html-css/basic/font-family-how-to */
+
+img{
+	vertical-align: bottom;
+}
+
+.wrapper{
+	overflow: hidden;
+}
+
+
+/*header*/
+body{
+	color: #585858;
+	background: #fff;
+}
+
+header{
+	position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 999;
+    background: #fff;
+    top: 0;
+ 	left: 0;
+}
+
+.headerInner{
+    display: flex;
+    padding: 0 300px 5px;
+    background: #fff;
+}
+    
+
+.headerInner img{
+    width: auto;
+    height: 100px;
+}
+
+.headerBox a{
+	text-decoration: none;
+	color: #9d9f88;
+	display: block;
+}
+
+.headerBox a:hover{
+	opacity: 0.7;
+	transition: 1.2s ease;
+}
+
+.welcome{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #b2b8a3;
+}
+
+h1{
+	margin: 35px auto 0 10px;
+    font-size: 5em;
+}
+
+h1 a{
+	color: #9d9f88;
+	text-decoration: none;
+}
+
+.font01{
+	text-align: right;
+    font-size: 2em;
+    font-weight: bold;
+    margin: -10px 5px 0 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.topR{
+	margin: 10px 0 0 auto;
+}
+
+.font02{
+	font-size: 1.3em;
+}
+
+.tel{
+	font-size: 1.1em;
+	padding: 10px 0 0 0;
+	color: #585858;
+}
+
+.sns{
+	font-size: 3em; 
+	text-decoration: none;
+	transition: 1.2s ease;
+}
+
+.sns a{
+	color: #9d9f88;
+}
+
+.sns a:hover{
+	opacity: 0.7;
+	transition: 1.2s ease;
+}
+
+/*nav*/
+nav{
+	background-color: #b2b8a3;
+}
+
+nav ul{
+	width: 1000px;
+	display: flex;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+nav ul li{
+	border-right: solid 1px #fff;
+}
+
+nav ul li:first-child{
+	border-left: solid 1px #fff;;
+
+}
+
+nav ul li a{
+	font-size: 1em;
+    width: 165.5px;
+	display: block;
+	color: #585858;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 0;
+	position: relative;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	background-color: #828167;
+	color: #fff;
+	text-decoration: none;
+    transition: 1.2s ease;
+    opacity: 0.7;
+    border-radius: 50px 0;
+}
+
+/*nav JS*/
+.navfixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.nav-unshown {
+    display: none;
+}
+
+
+main{
+	width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*PAGE UPボタン*/
+.topUp{
+	position: relative;
+}
+
+.topUp a{
+	position: absolute;
+    bottom: 30px;
+    right: 17%;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #585858;
+    background-color: #b2b8a3;
+    padding: 4px 6px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+
+.topUp a:hover{
+	color: #fff;
+	background-color: #797c7e;
+    opacity: 1;
+}
+
+
+/*footer部分*/
+footer{
+    font-size: 12.5px;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    border-top: 2px solid #b2b8a3;
+    background-color: #b2b8a3;
+    border-top: 1px solid #585858;
+}
+
+
+
+
+
+
+	box-shadow: 0 1px 5px #789;
+}
+
+aside .cul ul{
+	margin: 0 0 20px 0;
+	list-style-type: none;
+	font-size: 0.9em;
+}
+
+aside .cul ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 10px 0 10px 40px;
+}
+
+aside section ul li a:hover{
+	transition: 0.5s ease;
+	color: #fff;
+	text-shadow: 0 0 13px #00008b;
+	background-color: #3963e3;;
+	font-weight: bold;
+}

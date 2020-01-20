@@ -13,10 +13,10 @@
     display: block;
 }
 
-.specialityInner a:hover{
+/*.specialityInner a:hover{
 	opacity: 0.4;
 	transition: 1.2s ease;
-}
+}*/
 
 
 /*specialityBox*/
@@ -28,12 +28,24 @@
     border-radius: 50px 3px;
 }
 
+.spcialityBox01:hover{
+	box-shadow: 0px 6px 1px #b2b8a3;
+	transform: translateY(-10px);
+	transition-duration: 0.5s;
+}
+
 .spcialityBox02{
     width: 235px;
     flex-wrap: wrap;
     border: solid 1px #c4c9cc;
     margin-bottom: 0;
     border-radius: 50px 3px;
+}
+
+.spcialityBox02:hover{
+	box-shadow: 0px 6px 1px #b2b8a3;
+	transform: translateY(-10px);
+	transition-duration: 0.5s;
 }
 
 .spcialityBox01 img{

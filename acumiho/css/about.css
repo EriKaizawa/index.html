@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+main{
+	width: 1000px;
+}
+
+/*上の画像と文言*/
+.top{
+    position: absolute;
+    top: 160px;
+    left: 40%;
+    font-size: 2.5em;
+    color: #fff;
+    /*text-shadow: 1px 5px 1px #999;*/
+    z-index: 900;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+/*メインの中*/
+
+/*背景*/
+
+.bckWhite{
+	width: 1000px;
+	margin: 0 auto;
+	display: block;
+}
+
+.wb{
+	text-align: center;
+    margin: 100px auto 20px;
+    background: #b2b8a3;
+    padding: 5px 0;
+    border-radius: 50px 3px;
+    color: #fff;
+}
+
+/*ヘッドのイメージ*/
+
+.titleImg{
+	margin-right: 3px;
+    width: 40px;
+}
+
+.introductionBox{
+	display: flex;
+	margin:0 auto 20px;
+    padding-bottom: 100px;
+}
+
+/*introInner*/
+.introductionBox img{
+	margin-right: 20px;
+	height: 100%;
+}
+
+.introInner .bold{
+	font-weight: bold;
+}
+
+.introInner p{
+	padding-right: 1.5em;
+	color: #585858;
+	margin-top: 1em;
+}
+
+.introInner .fontBold{
+	font-weight: bold;
+}
+
+/*経歴*/
+
+.introInner dl{
+	display: flex;
+	flex-wrap: wrap;
+	/*border: 1px solid #b2b8a3;*/
+	font-weight: bold;
+	background: #dbded4;
+    padding: 0.3em;
+
+}
+
+.introInner dt{
+    margin: 0 0 0 10px;    
+    color: #585858;
+}
+
+.introInner dd{
+    width: 550px;
+}
+
+.introInner .other{
+    margin-top: 0;
+}
+
+.band a{
+	text-decoration: none;
+    color: #585858;
+}
+
+.band a:hover{
+	color: #585858;
+	background-color: #dbded4;
+	/*opacity: 0.7;*/
+	transition: 1.2s ease;
+}
