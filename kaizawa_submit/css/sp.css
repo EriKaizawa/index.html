@@ -1,0 +1,402 @@
+@media screen and (min-width:481px) and ( max-width:1024px) {
+.wrapper {
+    overflow: hidden;
+}
+
+.topCopy {
+    right: 110px;
+    position: absolute;
+    z-index: 999;
+    top: 113px;
+    max-width: 20em;
+    width: 16em;
+}
+
+.newS {
+    background-color: #fafafa;
+    width: 94%;
+    margin: 1em 2em 2em;
+    border: 1px solid #eee;
+}
+
+.title:before {
+    content: '';
+    position: relative;
+    left: 4.4%;
+    top: -30px;
+    display: inline-block;
+    width: 40px;
+    height: 5px;
+    transform: translateX(-8%);
+    background: linear-gradient(to right, #c9e23f, #47e3db);
+}
+
+dl {
+    width: 100%;
+    padding: 3em;
+    margin: 0;
+}
+
+.sbsButton a {
+    text-decoration: none;
+    width: 15em;
+    height: 3.5em;
+    background-color: #ddd;
+    text-align: center;
+    padding: 1em 0 0.4em;
+    margin: 2em auto 1.5em;
+    font-size: 17px;
+    font-weight: 800;
+    display: block;
+    color: #454545;
+}
+
+.spNon{
+    display:none;
+}
+
+.sbsIntro {
+    padding: 0 8em 5em;
+    font-size: 0.9em;
+}
+
+.sbsBox {
+    border: solid 6px #c9e23f;
+    margin: 0 2em 0 0;
+    width: 18.6em;
+    box-shadow: 0px 5px 11px 3px #ddd;
+}
+
+.itemsImg img {
+    width: 10em;
+    max-width: 100%;
+    height: auto;
+}
+
+}
+
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+
+@media screen and (max-width:480px) {
+
+*{
+    color: #333;
+}
+
+/*header*/
+header {
+    margin: 1em 0 4em;
+}
+
+#logo {
+    width: 12em;
+    margin: 0 0 1em 0.8em;
+}
+
+.topCopy {
+    right: 17px;
+    position: absolute;
+    z-index: 999;
+    top: 82px;
+    max-width: 7em;
+}
+
+/*nav*/
+nav {
+    width: 0;
+    margin: 0;
+    background-color: #fff;
+    height: 0;
+    padding: 15px 0 0 0;
+}
+
+nav ul {
+    display: flex;
+    margin: 2em auto 0em 2.5em;
+    list-style-type: none;
+    display: block;
+}
+
+nav ul li a {
+    font-size: 1.8em;
+    width: 80%;
+    display: block;
+    color: #393f4c;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    font-weight: bold;
+    padding: 41px 0 0 0;
+}
+
+nav ul li a:hover{
+    margin: 0;
+    padding: 0.5em 0 0 0;
+}
+
+/*ハンバーガーメニュー*/
+#nav-drawer {
+    position: absolute;
+    top: 18px;
+    right: 55px;
+    z-index: 100;
+}
+
+.nav-unshown {
+    display:none;
+}
+
+#nav-open {
+    display:block;
+    line-height: 0.7em;
+}
+
+#nav-open span{
+    position: fixed;
+    z-index: 999;
+}
+
+#nav-open span, #nav-open span:before, #nav-open span:after {
+    height: 4px;
+    width: 40px;
+    border-radius: 40px;
+    background: #333;
+    display: inline-block;
+    content: '';
+    cursor: pointer;
+}
+
+#nav-open span:before {
+    top: 0;
+}
+
+#nav-open span:after {
+    top: 0;
+}
+
+#nav-close {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+/*中身*/
+#nav-content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 60%;
+    max-width: 330px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    transition: .3s ease-in-out;
+    transform: translateX(-105%);
+    color: #000;
+}
+
+#nav-input:checked ~ #nav-close {
+    display: block;
+    opacity: .5;}
+
+#nav-input:checked ~ #nav-content {
+    transform: translateX(0%);
+    box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+/*ハンバーガーメニューの設定ここまで*/
+
+
+/*news*/
+.newS {
+    background-color: #fafafa;
+    width: 91%;
+    margin: 1em 1em 2em;
+    border: 1px solid #eee;
+}
+
+.inner {
+    padding: 4em 0 3.5em;
+}
+
+.newsTitle{
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 0 -1.5em;
+}
+
+.newsTitle:before {
+    content: '';
+    position: relative;
+    left: 12%;
+    top: -30px;
+    display: inline-block;
+    width: 40px;
+    height: 5px;
+    transform: translateX(-8%);
+    background: linear-gradient(to right, #c9e23f, #47e3db);
+}
+
+.title:before {
+    content: '';
+    position: relative;
+    left: 11%;
+    top: -30px;
+    display: inline-block;
+    width: 40px;
+    height: 5px;
+    transform: translateX(-8%);
+    background: linear-gradient(to right, #c9e23f, #47e3db);
+}
+
+dl {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+dt {
+    width: 33%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 0.3em;
+    float: none;
+    display: block;
+    clear: left;
+    margin: 1.5em 1em 0.5em;
+}
+
+dd {
+    margin-left: 1em;
+    margin-bottom: 1.5em;
+}
+
+.spNon{
+    display:none;
+}
+
+/*features*/
+.ftrInner {
+    display: block;
+    width: 100%;
+    padding: 2.5em 1em 0;
+}
+
+.ftrImg {
+    width: 30em;
+    height: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.ftrBox h3 {
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 1em 0;
+}
+
+.aero888 {
+    width: 14em;
+    margin: 1em 3.25em;
+    position: relative;
+    float: none;
+    align-items: center;
+}
+
+/*subscription*/
+.sbs {
+    padding: 2.5em 1em 0;
+}
+
+.sbsIntro {
+    padding: 0;
+    margin: 0 0 2em 0;
+}
+
+.fbox {
+    display: block;
+}
+
+.sbsBox {
+    border: solid 6px #c9e23f;
+    margin: 1em 2em 0 0;
+    width: 100%;
+    box-shadow: 0px 5px 11px 3px #ddd;
+}
+
+.sbsBox:last-child {
+    margin: 1em 0 0 0;
+}
+
+.sbsSubtitle {
+    text-align: center;
+    margin: 0.5em auto;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.sbsButton a {
+    text-decoration: none;
+    width: 16em;
+    height: 3.5em;
+    background-color: #ddd;
+    text-align: center;
+    padding: 1em 0 0.4em;
+    margin: 2em auto 1.5em;
+    font-size: 17px;
+    font-weight: 800;
+    display: block;
+    color: #454545;
+}
+
+/*items*/
+.itemsImg {
+    padding: 2.5em 1em 0;
+}
+
+.itemsImg01 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.itemsImg01 img {
+    max-width: 6.8em;
+    height: 100%;
+}
+
+.itemsImg02 {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.itemsImg02 img {
+    max-width: 6.8em;
+    height: 100%;
+}
+
+footer {
+    margin: 3em 0 0.5em 0;
+}
+
+}

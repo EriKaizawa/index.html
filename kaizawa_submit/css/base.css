@@ -1,0 +1,309 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body,h1,h2,h3,ul,p,dl{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+p{
+	line-height: 1.5;
+}
+
+.nav-unshown {display:none;}
+
+body {
+	font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+	background-color: #fff;
+	color: #454545;
+}
+
+img{
+	vertical-align: bottom;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+a{
+	transition: 0.6s ;
+}
+
+.wrapper{
+	overflow: hidden;
+}
+
+/*header*/
+header {
+    margin: 1em 2em;
+}
+
+#logo{
+    width: 12em;
+    margin: 0 0 1em 0;
+}
+
+.topCopy {
+    right: 170px;
+    position: absolute;
+    z-index: 999;
+    top: 135px;
+    max-width: 20em;
+}
+
+.topImg {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/*nav*/
+nav {
+	width: 100%;
+    margin: 3em auto 3em auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+
+li{
+    width: 15.15em;
+    border-left: 1.5px solid;
+    text-align: center;
+    font-weight: bold;
+}
+
+li a{
+	color: #454545;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    padding: 0.3em 0;
+    position: relative;
+}
+
+li a:hover{
+	color:#9aaf24;
+	background-color: #fafafa;
+}
+
+li:last-child{
+	border-right: 1.5px solid;
+}
+
+/*news*/
+.newS{
+	background-color: #fafafa;
+    margin: 1em 2em;
+    border: 1px solid #eee;
+}
+
+.inner{
+	padding: 7.5em 0 3.5em;
+}
+
+.newsTitle{
+	font-size: 1.6em;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 0 -1.5em;
+}
+
+.newsTitle:before{
+  content: '';
+    position: relative;
+	left: 1.7em;
+    top: -30px;
+    display: inline-block;
+    width: 40px;
+    height: 5px;
+    transform: translateX(-8%);
+    background: linear-gradient(to right, #c9e23f, #47e3db);
+}
+
+.title{
+	font-size: 1.6em;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 0 -1.5em;
+}
+
+.title:before{
+  content: '';
+    position: relative;
+	left: 1.7em;
+    top: -30px;
+    display: inline-block;
+    width: 40px;
+    height: 5px;
+    transform: translateX(-8%);
+    background: linear-gradient(to right, #c9e23f, #47e3db);
+}
+
+dl {
+    width: 100%;
+    /* padding: 2em 15em 0 15em; */
+    margin: 2em 15em 0;
+}
+
+dt {
+    width: 8em;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 0.2em 0;
+    float: left;
+    display: block;
+    clear: left;
+    margin-bottom: 1.5em;
+}
+
+dd {
+    margin-left: 9em;
+    margin-bottom: 1.5em;
+    text-decoration: underline;
+}
+
+/*features*/
+/*ftrInner*/
+.ftrInner{
+	display: flex;
+    width: 100%;
+    padding: 2.5em 2em 0 2em;
+}
+
+.ftrImg{
+    width: 30em;
+    height: 100%;
+    max-width: 100%;
+    margin: 0 2.5em 0 0;
+}
+
+.fbox{
+	display: flex;
+}
+
+.aero888{
+    width: 19em;
+    margin: 1em 0 0em 1em;
+    position: relative;
+    float: right;
+}
+
+.ftrP{
+	margin-top: 1em
+}
+
+/*subscription*/
+.sbs{
+	padding: 2.5em 2em 0 2em;
+}
+
+.sbsIntro{
+	padding: 0 16em 5em;
+}
+
+.sbsBox{
+    border: solid 6px #c9e23f;
+    margin: 0 2em 0 0;
+    width: 100%;
+	box-shadow: 0px 5px 11px 3px #ddd;
+}
+
+.sbsImg {
+    width: 29em;
+    max-width: 100%;
+}
+
+.sbsBox:last-child{
+	margin: 0 0 0 0;
+}
+
+.sbsSubtitle{
+	text-align: center;
+    margin: 1.5em auto;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.sbsCost{
+	font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sbsP{
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+.sbsButton a {
+    text-decoration: none;
+    width: 17em;
+    height: 3.5em;
+    background-color: #ddd;
+    text-align: center;
+    padding: 1em 0 0.4em;
+    margin: 2em auto 1.5em;
+    font-size: 17px;
+    font-weight: 800;
+    display: block;
+    color: #454545;
+}
+
+.sbsButton a:hover{
+	background: linear-gradient(to right, #c9e23f, #47e3db);
+}
+
+/*items*/
+.itemsImg {
+    padding: 2.5em 2em 0 2em;
+}
+
+.itemsImg01 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.itemsImg01 img{
+    width: 15.15em;
+}
+
+.itemsImg02 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.itemsImg02 img{
+    width: 15.15em;
+}
+
+
+/*footer*/
+footer{
+	margin: 15em 0 0.5em 0;
+}
+
+small{
+	margin: 0 auto;
+    text-align: center;
+    display: block;
+}
