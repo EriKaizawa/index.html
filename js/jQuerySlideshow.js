@@ -7,10 +7,10 @@ function slideSwitch() {
 	 $active.addClass('last-active');
 	 $next.css({opacity: 0.0})
 		 .addClass('active')
-		 .animate({opacity: 1.0}, 1500, function() {
+		 .animate({opacity: 1.0}, 1000, function() {
 			 $active.removeClass('active last-active');
 	   });
  }
  $(function() {
-	 setInterval( "slideSwitch()", 4000 );
+	 setInterval( "slideSwitch()", 2000 );
  });
