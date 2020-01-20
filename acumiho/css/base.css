@@ -49,11 +49,9 @@ header{
 }
 
 .headerInner{
-    display: flex;
-    padding: 0 300px 5px;
-    background: #fff;
-}
-    
+	display: flex;
+    padding: 0 8em 1em;
+    background: #fff; 
 
 .headerInner img{
     width: auto;
