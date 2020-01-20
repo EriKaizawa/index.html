@@ -483,6 +483,11 @@ dd {
 }
 
 .webSecond img {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.webThierd img {
     max-width: 47%;
     margin: 0 auto 0 0.6em;
 }
@@ -534,7 +539,6 @@ main {
 }
 
 h1 {
-    margin: 0.1em 0.3em;
     font-size: 1em;
     text-align: center;
 }
@@ -545,13 +549,13 @@ h1 {
 }
 
 .faceBook {
-    top: 0.5em;
-    left: 10.3em;
+    top: -1.5em;
+    left: 1.5em;
 }
 
 .instaGram {
-    top: 0.5em;
-    left: 11.3em;
+    top: -1.5em;
+    left: 2.5em;
 }
 
 /*nav*/
@@ -647,18 +651,19 @@ nav ul {
 .imgBox{
     width: 30%;
     margin: 0 auto;
+    filter: drop-shadow(0px 3px 2px rgba(0,0,0,0.5));
 }
 
 .imgBox img {
-    width: 111px;
-    height: 17ex;
+    width: 6.7em;
+    height: 8.2em;
     border: none;
 }
 
 .imgBox .caption01 {
     font-size: 1.2em;
     color: #fff;
-    padding-top: 179%;
+    padding-top: 166%;
     padding-left: 0px;
     text-align: center;
 }
@@ -684,7 +689,7 @@ nav ul {
     width: 100%;
     background-color: #eaf4fc;
     margin: 1em 0;
-    padding: 1.5em 0;
+    padding: 1.5em 0.3em;
 }
 
 .aboutBox {
@@ -693,15 +698,16 @@ nav ul {
 }
 
 .aboutImg {
-    width: 79%;
+    width: 80%;
     height: auto;
     margin: 0;
 }
 
 .aboutInner img {
-    margin: 0 0.5em;
-    width: 83%;
+    margin: 0;
+    width: 95%;
     height: auto;
+    text-align: center;
 }
 
 article{
@@ -760,7 +766,7 @@ dt {
 
 dd {
     font-size: 0.8em;
-    width: 70%;
+    width: 76%;
     margin: 0 0 1em;
     color: #393f4c;
 }
@@ -771,7 +777,7 @@ dd {
 .grdesignInner {
     width: 100%;
     background-color: #fff;
-    margin: 1em 0 0.5em;
+    margin: 1em auto 0.5em;
     padding: 0.5em 0 1em 0;
 }
 
@@ -780,7 +786,7 @@ dd {
     font-size: 0.9em;
     background-color: #eaf4fc;
     width: 70%;
-    margin: 1.5em 3.5em 0.8em;
+    margin: 1.5em auto 0;
     text-align: center;
     color: #393f4c;
     padding: 0.3em 0 0.2em;
@@ -789,7 +795,7 @@ dd {
 .grFirst {
     display: block;
     width: 100%;
-    margin: 0 3.2em;
+    text-align: center;
 }
 
 .grLeaf {
@@ -798,72 +804,77 @@ dd {
 }
 
 .grLeaf p {
-    font-size: 0.9em;
-    text-align: left;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 0 0 1em 0;
 }
 
 .grFirst .grLeaf img {
     max-width: 70%;
     height: auto;
-    margin: 0.6em 0;
+    margin: 0.6em auto;
     border: solid #393f4c 1px;
 }
 
 .grSecond {
     display: block;
     width: 100%;
-    margin: 0;
 }
 
 .grPoster{
     display: block;
     width: 100%;
-    margin: 0 3.4em 2em;
+    text-align: center;
 }
 
 .grPoster p {
-    font-size: 0.9em;
-    text-align: left;
+	font-size: 0.8em;
+    text-align: center;
+    margin: 0 0 1em 0;
 }
 
 .grPoster02 {
+    display: block;
     width: 100%;
-    margin: 0 3.4em 2em;
+    text-align: center;
 }
 
 .grPoster02 p {
-    font-size: 0.9em;
-    text-align: left;
+	font-size: 0.8em;
+    text-align: center;
+    margin: 0 0 1em 0;
 }
 
 .grSecond img{
     max-width: 70%;
     height: auto;
-    margin: 0.6em 0;
+    margin: 0.6em auto;
     border: solid #393f4c 1px;
 }
 
-.grSecond img:nth-child(4) {
+/*.grSecond img:nth-child(4) {
     margin-right: 0.6em;
-}
+}*/
 
 .grThierd {
     display: block;
     width: 100%;
-    margin: 0 3.4em;
+    text-align: center;
 }
 
 .grThierd img {
-    max-width: 69%;
+    max-width: 70%;
     height: auto;
-    margin: 0.6em 0;
+    margin: 0.6em auto;
     border: solid #393f4c 1px;
 }
 
 .blogSentence {
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-align: left;
-    padding: 0.5em;
+    padding: 0.3em;
+    margin: 0 auto;
+
 }
 
 .grThierd img:nth-child(odd) {
@@ -872,20 +883,26 @@ dd {
 
 .grFourth {
     display: block;
-    flex-wrap: wrap;
     width: 100%;
-    margin: 0 0 2em;
+    text-align: center;
 }
 
 .tissueBox01 {
     display: block;
     width: 100%;
-    margin: 0 3.4em;
+    text-align: center;
+}
+
+.otherSentence {
+    text-align: center;
+    margin: -1em 0 2em;
+    font-size: 0.8em;
 }
 
 .tissueBox02 {
-    display: flex;
-    margin: 0 0 0.6em 0;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 
 .tissueRight01 {
@@ -895,15 +912,18 @@ dd {
 }
 
 .grFourth img {
-    max-width: 70%;
-    height: auto;
-    margin: 0;
+    width: 70%;
     border: none;
+    max-width: 100%;
+    height: auto;
+    margin: 0.6em auto 0;
 }
 
 .tissueRight01 img {
-    max-width: 33%;
-    margin: 0 0 1.5em;
+    max-width: 34.2%;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 
 .tissueRight02 {
@@ -914,30 +934,34 @@ dd {
 
 
 .tissueRight02 img {
-    max-width: 33%;
+    max-width: 34.2%;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 
 .tissueBox02 {
     display: block;
-    margin: 0 3.3em 1.5em;
     width: 100%;
+    text-align: center;
 }
 
 .clrFile {
     display: block;
     width: 100%;
-    margin-bottom: 1.3em;
+    text-align: center;
 }
 
 .clrFile img {
-    max-width: 67%;
-    height: auto;
-    margin: 0 3.3em 1.5em;
+    width: 70%;
     border: none;
+    max-width: 100%;
+    height: auto;
+    margin: 0.6em auto;
 }
 
-.clrFile img:last-child {
-    margin: 0 3.3em -0.5em;
+.clrFile img:first-child {
+    margin: 0.6em 0 0 0;
 }
 
 /*art*/
@@ -982,6 +1006,7 @@ dd {
 
 .artFirst img {
     width: 90%;
+    filter: drop-shadow(0px 3px 2px rgba(0,0,0,0.5));
 }
 
 .artSecond {
@@ -998,13 +1023,14 @@ dd {
     margin: 0 0 1.5em;
 }
 
-.artSecond li {
+/*.artSecond li {
     margin: 0;
     width: 25%;
-}
+}*/
 
 .artSecond img{
     width: 90%;
+    filter: drop-shadow(0px 3px 2px rgba(0,0,0,0.5));
 }
 
 /*web*/
@@ -1016,18 +1042,35 @@ dd {
 
 .webFirst img {
     max-width: 90%;
-    margin: 0 auto;
-    filter: drop-shadow(0px 3px 0px rgba(0,0,0,0.5));
-}
-
-.webSecond {
-    margin-bottom: 0; 
-    display: flex;
+    margin: 0.6em auto;
+    filter: drop-shadow(0px 3px 2px rgba(0,0,0,0.5));
 }
 
 .webSecond img {
+    max-width: 90%;
+    margin: 0.6em auto;
+    filter: drop-shadow(0px 3px 2px rgba(0,0,0,0.5));
+}
+
+.webSecond a {
+    color: #000;
+    display: block;
+    transition: 0.8s;
+    position: relative;
+    text-decoration: none;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.webThierd {
+    margin-bottom: 0;
+    display: flex;
+}
+
+.webThierd img {
     max-width: 47%;
-    margin: 0 auto 0 0.6em;
+    margin: 0.6em auto 0 0.6em;
+    filter: drop-shadow(0px 3px 2px rgba(0,0,0,0.5));
 }
 
 .formInner {
@@ -1053,13 +1096,13 @@ dd {
 
 .topUp01 a {
     position: absolute;
-    bottom: -171.7%;
-    right: -1%;
+    bottom: -70.5em;
+    right: 1%;
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
     color: #393f4c;
-    padding: 10px 15px;
+    padding: 0;
     border-radius: 15px;
     transition: 0.5s ease;
 }
@@ -1076,4 +1119,214 @@ dd {
     border-radius: 0px;
     transition: 0.5s ease;
 }
+
+.topUpLast a {
+    position: absolute;
+    bottom: -1.9em;
+    right: 1%;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #393f4c;
+    padding: 0;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+}
+
+@media screen and (min-width:481px) and (max-width: 1024px) {
+.spNone {display:none;}
+.wrapper{
+    overflow: hidden;
+}
+
+
+/*topImages*/
+.imgInner {
+    display: flex;
+    margin: 0 auto 100px;
+    width: 100%;
+}
+
+.imgBox img {
+    width: 100%;
+    height: 100%;
+    border: solid 1px #393f4c;
+}
+
+/*about*/
+.aboutInner {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0.8em 150px;
+}
+
+.aboutImg{
+    margin: 0 auto;
+}
+
+.aboutImg img {
+    width: 18.2em;
+    height: 27em;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+}
+
+.intro {
+    width: 43em;
+    margin: 0 0 0 0.8em;
+}
+
+/*work*/
+/*グラフィック*/
+.grdesignInner {
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10em 0.8em;
+}
+
+.grFirst {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10em;
+}
+
+.grLeaf {
+    width: 20em;
+    margin: 0 1.2em 0 0;
+}
+
+.grFirst .grLeaf img {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border: solid #393f4c 1px;
+    width: 20.3em;
+}
+
+.grSecond{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10em;
+}
+
+.grPoster{
+    width: 20em;
+    margin: 0 1.2em 0 0;
+}
+
+.grPoster img{
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border: solid #393f4c 1px;
+    width: 20.3em;
+}
+
+.grPoster02{
+    width: 20em;
+    margin: 0;
+}
+
+.grPoster02 img{
+    width: 20em;
+    margin: 0 1.2em 0 0;
+}
+
+.grThierd{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10em;
+}
+
+.grThierd img {
+    max-width: 30.5em;
+    height: auto;
+    margin: 0 auto 1.4em 0;
+    border: solid #393f4c 1px;
+}
+
+.grThierd img:nth-child(odd) {
+    margin-right: 1.4em;
+}
+
+.grFourth {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*art*/
+.grdesignInner {
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10em 0.8em;
+}
+
+/*topUp*/
+.topUp01 a {
+    position: absolute;
+    bottom: -189%;
+    right: 0%;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #393f4c;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+.topUp a {
+    position: absolute;
+    bottom: -177px;
+    right: -2%;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #393f4c;
+    /* background-color: #eaf4fc; */
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+.topUpArt a{
+   position: absolute;
+    bottom: -118px;
+    right: -2%;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #393f4c;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: 0.5s ease; 
+}
+
+.topUpweb a{
+    position: absolute;
+    bottom: -117px;
+    right: -2%;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #393f4c;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+
 }
