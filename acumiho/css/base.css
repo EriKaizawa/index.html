@@ -48,10 +48,12 @@ header{
  	left: 0;
 }
 
-.headerInner{
-	display: flex;
+.headerInner {
+    display: flex;
     padding: 0 8em 1em;
-    background: #fff; 
+    background: #fff;
+}
+    
 
 .headerInner img{
     width: auto;
