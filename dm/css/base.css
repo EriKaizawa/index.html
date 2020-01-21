@@ -175,6 +175,42 @@ nav {
   text-align: center;
 }
 
+.wH1{
+  color: #fff;
+  width: 14em;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+  margin: 5em auto 4em;
+}
+
+.wH1:before {
+  content: "";
+  position: absolute;
+  background: #77af68;
+  width: 7em;
+  height: 4em;
+  border-radius: 92% 18% / 85% 51%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+}
+
+.wH1:after{
+  content: "";
+  position: absolute;
+  background: #adcfa4;
+  width: 8em;
+  height: 4em;
+  border-radius: 82% 57% / 66% 79%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  opacity: 0.3;
+}
+
 .wH2{
   color: #fff;
   width: 14em;
